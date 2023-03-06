@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+    transition: all .3s;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family:  arial,'ｍｓ ｐゴシック','ms pgothic','돋움',dotum,helvetica,sans-serif;
+    font-size: 10px;
+    color: #ffffff;
+    font-style: normal;
+    background: rgb(34,35,35);
+}
+h1,h2,h3,h4,h5,h6,p,span{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+button{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body::-webkit-scrollbar {
+    width: 10px;
+    background: #ffffff;
+}
+body::-webkit-scrollbar-thumb {
+    background: rgb(34,35,35);
+    border-radius: 3px;
+}
+.container{
+    padding: 0 calc((100% - 1712px) / 2);
+}
+/*header*/
+.l-element{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #ffffff;
+}
+.l-border{
+    width: 25px;
+    height: 25px;
+    border: 2px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.h-logo-block{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    padding: 10px 0 ;
+    justify-content: space-between;
+    position: relative;
+}
+.l-text-item{
+    font-size: 25px;
+    line-height: 1.5em;
+}
+.l-text{
+    margin-left: 12px;
+}
+.backed-icon{
+    fill: #ffffff;
+    width: 30px;
+    height: 30px;
+}
+.bGBBgJ{
+    color: #000000;
+}
+.h-nav-block{
+    padding-top: 15px;
+}
+
+/*header*/
+
+/*background*/
+
+.background-block{
+
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.background-img{
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+/*background*/
+
+/*product-page-style*/
+.product-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+}
+.p-text-content{
+    display: flex;
+    flex-direction: column;
+}
+.p-text{
+    font-size: 25px;
+    line-height: 1.5em;
+}
+.p-des-text{
+    font-size: 75px;
+    line-height: 1.49em;
+}
+.p-img-item{
+    transform: rotate(350deg);
+    width: 548px;
+    height: 540px;
+    object-fit: cover;
+}
+.p-img-content{
+    display: inline-block;
+    overflow: hidden;
+}
+.p-btn{
+    background: #A328FF;
+    box-shadow:  0.00px 1.00px 20px 0px rgba(125,43,196,1),0 1px 4px rgba(0,0,0,.6);
+    font-size: 16px;
+    color: #ffffff;
+    width: 165px;
+    height: 46px;text-align: center;
+    border-radius: 32px;
+    margin-top: 28px;
+    cursor: pointer;
+    display: inline-block;
+}
+.p-btn:hover{
+    background: #ffffff;
+    color:rgba(0,0,0,.6) ;
+}
+/*product-page-style*/
+
+/*presentation-page*/
+.presentation-area{
+    display: flex;
+    height: 94vh;
+}
+.presentation-text-content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.p-r-title-block{
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 250px;
+}
+.p-r-title-text{
+    font-size: 14px;
+    letter-spacing: 0.3em;
+    margin-left: 12px;
+}
+.p-r-content-body-text{
+    margin-top: 60px;
+    margin-left: 250px;
+    width: 40%;
+}
+.p-r-des-text{
+    font-size: 50px;
+    line-height: 1.2em;
+}
+.p-r-des-text-2{
+    font-size: 16px;
+    line-height: 1.6em;
+    width: 75%;
+}
+.mar-b-36{
+    margin-bottom: 36px;
+}
+.background-img-2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.background-2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 80%;
+}
+.presentation-img-content{
+    background: rgb(80,41,132);
+    background: linear-gradient(10deg, rgba(80,41,132,1) 30%, rgba(54,41,58,1) 82%);
+    margin-left: 40px;
+    width: 512px;
+    position: relative;
+}
+.present-img-item{
+    position: absolute;
+    top: 22%;
+    right: 50%;
+}
+.mar-t-50{
+    margin-top: 50px;
+}
+.mar-r-40{
+    margin-right: 40px;
+    margin-left: 0;
+}
+.background-3{
+    background:rgb(110,110,110);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.position-img{
+    left: 50%;
+}
+/*presentation-page*/
