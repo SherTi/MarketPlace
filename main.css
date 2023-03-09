@@ -542,12 +542,17 @@ body::-webkit-scrollbar-thumb {
     margin-right: 16px;
 }
 .f-info-block{
-    margin-top: 20px;
     display: flex;
 }
 /*footer*/
 .h-nav-block-modal-win{
     display: none;
+}
+.f-nav-item-block-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
 }
 /*mobile-optimize*/
 @media (max-width: 425px) {
@@ -837,6 +842,18 @@ body::-webkit-scrollbar-thumb {
     .f-social-net-text{
         margin-right: 0;
     }
+    .f-nav-item-block-2{
+        flex-direction: column-reverse;
+        align-items: start;
+        margin-top: 0;
+    }
+    .f-nav-panel-2{
+        margin-bottom: 10px;
+    }
+    .mar-r-15{
+        margin-right: 15px;
+    }
+
 /* nav-panel*/
     .backed-block{
         width: 250px;
