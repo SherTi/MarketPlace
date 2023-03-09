@@ -5,11 +5,14 @@
 body{
     margin: 0;
     padding: 0;
+    background: rgb(34,35,35);
+}
+html{
+    height: 100%;
     font-family:  arial,'ｍｓ ｐゴシック','ms pgothic','돋움',dotum,helvetica,sans-serif;
     font-size: 10px;
     color: #ffffff;
     font-style: normal;
-    background: rgb(34,35,35);
 }
 h1,h2,h3,h4,h5,h6,p,span{
     margin: 0;
@@ -305,11 +308,7 @@ body::-webkit-scrollbar-thumb {
 /*presentation-2-page*/
 
 /*presentation-z-index-page*/
-.background-4{
-    background: url("assets/man.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
+
 /*presentation-z-index-page*/
 /*presentation-4-page*/
 .product-info-area{
@@ -554,6 +553,31 @@ body::-webkit-scrollbar-thumb {
     align-items: center;
     margin-top: 20px;
 }
+/*footer*/
+
+/*parallax-effect*/
+._parallax{
+    height: 80vh;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+._parallax_img{
+    position: absolute;
+    width: 120%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: url("assets/man.jpg") top / cover no-repeat  fixed;
+    background-size: 100%;
+    z-index: -1;
+}
+/*parallax0effect*/
 /*mobile-optimize*/
 @media (max-width: 425px) {
     .h-nav-block{
@@ -680,10 +704,6 @@ body::-webkit-scrollbar-thumb {
     .h-322{
         height: 322px;
         width: 100%;
-    }
-    .background-4{
-        background: url("assets/men.jpg");
-        background-size: cover;
     }
     .product-content-image{
         padding-top: 0;
