@@ -116,11 +116,34 @@ body::-webkit-scrollbar-thumb {
     flex-direction: column;
 }
 /*section-block-main*/
+
+.__background_1{
+    background: url("assets/background.jpg");
+    background-size: cover;
+}
+
 /*background*/
-
+.presentation-text-content{
+    position: static;
+}
+.__background_2{
+    background: url("assets/black-women.jpg");
+    background-size: cover;
+}
+.__background_opacity:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.__background_3{
+    background: url("assets/c837a6_98a516fd3a66427ab4cd0cf2b2a13ca2~mv2.png") left/ cover no-repeat fixed;
+}
 .background-block{
-
-
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -144,7 +167,8 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 90vh;
+    height: 1080px;
+    width: 100%;
 }
 .p-text-content{
     display: flex;
@@ -189,17 +213,19 @@ body::-webkit-scrollbar-thumb {
 /*presentation-page*/
 .presentation-area{
     display: flex;
-    height: 94vh;
 }
 .presentation-text-content{
     display: flex;
     flex-direction: column;
     position: relative;
+
 }
 .p-r-title-block{
     display: flex;
     align-items: center;
     margin-top: 200px;
+    z-index: 1;
+    position: relative;
     margin-left: 250px;
 }
 .p-r-title-text{
@@ -210,7 +236,10 @@ body::-webkit-scrollbar-thumb {
 .p-r-content-body-text{
     margin-top: 60px;
     margin-left: 250px;
-    width: 40%;
+    width: 50%;
+    z-index: 1;
+    position: relative;
+    margin-bottom: 200px;
 }
 .p-r-des-text{
     font-size: 50px;
@@ -222,33 +251,20 @@ body::-webkit-scrollbar-thumb {
     width: 75%;
 }
 .mar-b-36{
-    margin-bottom: 36px;
-}
-.background-img-2{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.background-2{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    opacity: 80%;
+margin-bottom: 36px;
 }
 .presentation-img-content{
     background: rgb(80,41,132);
-    background: linear-gradient(10deg, rgba(80,41,132,1) 30%, rgba(54,41,58,1) 82%);
+    background: url("assets/background__img.png") top / cover no-repeat  fixed;
     margin-left: 40px;
-    width: 512px;
+    width: 30%;
     position: relative;
 }
 .present-img-item{
-    position: absolute;
-    top: 22%;
-    right: 50%;
+    margin-top: 128px;
+    margin-left: -110px;
+    position: relative;
+    z-index: 1;
 }
 .mar-t-50{
     margin-top: 50px;
@@ -259,16 +275,12 @@ body::-webkit-scrollbar-thumb {
 }
 .background-3{
     background: rgb(110,110,110);
-    background: linear-gradient(56deg, rgba(110,110,110,1) 5%, rgba(34,35,35,1) 37%);
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
 }
 .position-img{
-    left: 50%;
+    margin-left: 260px;
+    margin-top: 128px;
+    z-index: 1;
+    position: relative;
 }
 /*presentation-page*/
 
@@ -307,9 +319,6 @@ body::-webkit-scrollbar-thumb {
 }
 /*presentation-2-page*/
 
-/*presentation-z-index-page*/
-
-/*presentation-z-index-page*/
 /*presentation-4-page*/
 .product-info-area{
     position: relative;
@@ -339,6 +348,11 @@ body::-webkit-scrollbar-thumb {
 }
 .product-img-item{
     margin-top: 200px;
+    position: relative;
+    z-index: -1;
+    width: 739px;
+    height: 949px;
+    background-size: cover;
 }
 .p-info-card-title{
     display: flex;
@@ -346,6 +360,7 @@ body::-webkit-scrollbar-thumb {
     margin-bottom: 24px;
 }
 .product-info-card{
+    width: 400px;
     padding: 25px;
     background: rgb(34,35,35);
     border-radius: 15px;
@@ -397,15 +412,28 @@ body::-webkit-scrollbar-thumb {
 }
 .s-h-block-content{
     position: relative;
+    background: url("assets/black-women-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 954px;
+    width: 100%;
 }
+.s-h-block-content_2{
+    background: url("assets/mamolog.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 954px;
+    width: 100%;
+}
+
 .s-h-content-body{
-    position: absolute;
-    left: 15%;
-    top:5%;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-top: 50px;
 }
 .s-h-img{
     position: relative;
@@ -422,12 +450,18 @@ body::-webkit-scrollbar-thumb {
     left: 0;
 }
 .s-h-w-80{
-    width: 80%;
+    width: 60%;
 }
 .s-h-w-35{
     width: 35%;
 }
+.container-how-using{
+    padding: 0 calc((100% - 1560px) / 2);
+}
 /*section-how-using*/
+.text-w-50{
+    width: 30%;
+}
 /**/
 .order-product-area{
     margin-top: 115px;
@@ -451,7 +485,7 @@ body::-webkit-scrollbar-thumb {
     border-radius: 40px;
     background: #ffffff;
     width: 100%;
-    box-shadow:  0.00px 1.00px 20px 0px rgba(125,43,196,1),0 0 0 transparent;
+    box-shadow:  0 1px 20px 0 rgba(125,43,196,1),0 0 0 transparent;
     font-size: 16px;
     color: #000000;
     border: 1px solid rgb(255,64,64);
@@ -474,7 +508,8 @@ body::-webkit-scrollbar-thumb {
     right: 8px;
     background: rgb(125,43,196);
     color: #ffffff;
-    box-shadow:  0.00px 1.00px 20px 0px rgba(125,43,196,1),0 1px 4px rgba(0,0,0,.6);
+    cursor: pointer;
+    box-shadow:  0 1px 20px 0 rgba(125,43,196,1),0 1px 4px rgba(0,0,0,.6);
 }
 .sub-text{
     padding: 0  20px 0 38px;
@@ -515,6 +550,59 @@ body::-webkit-scrollbar-thumb {
 }
 /*backed-page*/
 
+/*parallax-effect*/
+._parallax{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+._parallax_content{
+    background: url('assets/man.jpg') top / contain no-repeat  fixed;
+    width: 1903px;
+    height: 748px;
+    position: relative;
+}
+._parallax_img:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+}
+/*parallax0effect*/
+
+/* nav-panel*/
+.backed-block{
+    width: 250px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    transform: translateX(100%);
+    top: 0;
+    right: 0;
+    position: fixed;
+    z-index: 2;
+}
+.backed-block-container{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.active-nav{
+    transform: translateX(0);
+    opacity: 1;
+    display: block;
+}
+/*    nav-panel*/
 /*footer*/
 .footer-block{
     background: url("assets/background.jpg");
@@ -543,7 +631,7 @@ body::-webkit-scrollbar-thumb {
 .f-info-block{
     display: flex;
 }
-/*footer*/
+
 .h-nav-block-modal-win{
     display: none;
 }
@@ -554,30 +642,15 @@ body::-webkit-scrollbar-thumb {
     margin-top: 20px;
 }
 /*footer*/
-
-/*parallax-effect*/
-._parallax{
-    height: 80vh;
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
+@media (max-width: 2560px) {
+    .presentation-img-content{
+        width: 43%;
+    }
+    ._parallax_content {
+        background: url(assets/man.jpg) top / cover no-repeat fixed;
+        width: 100%;
+    }
 }
-._parallax_img{
-    position: absolute;
-    width: 120%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: url("assets/man.jpg") top / cover no-repeat  fixed;
-    background-size: 100%;
-    z-index: -1;
-}
-/*parallax0effect*/
 /*mobile-optimize*/
 @media (max-width: 425px) {
     .h-nav-block{
@@ -592,9 +665,10 @@ body::-webkit-scrollbar-thumb {
     .product-area{
         flex-direction: column;
         justify-content: center;
+        height: 800px;
     }
     .p-text-content{
-        padding: 0 0px;
+        padding: 0 0;
         width: 100%;
         text-align: center;
         margin:  32px 0;
@@ -625,9 +699,9 @@ body::-webkit-scrollbar-thumb {
         object-fit: contain;
     }
     .p-r-content-body-text{
-        margin: 0;
         width: 100%;
         margin-top: 12px;
+        margin-left: 0;
     }
     .p-r-title-text{
         font-size: 10px;
@@ -641,11 +715,27 @@ body::-webkit-scrollbar-thumb {
         margin-bottom: 10px;
     }
     .presentation-text-content{
-        background-size:100%;
         padding: 20px 20px;
+        height: 348px;
+    }
+    .__background_2{
+        background: url("assets/blackwomen_69.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
     }
     .p-r-des-text-2{
         width: 100%;
+    }
+    ._parallax_body{
+        height: 322px;
+        width: 100%;
+    }
+    ._parallax_content{
+        background: url("assets/men.jpg");
+        background-size: cover;
+        height: 332px;
+        padding: 30px 30px;
+        background-repeat: no-repeat;
     }
     .presentation-img-content{
         margin-left: 0;
@@ -654,12 +744,19 @@ body::-webkit-scrollbar-thumb {
         height: 434px;
     }
     .present-img-item{
-        position: static;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100%;
         width: 100%;
+        margin: 0;
+    }
+    .position-img{
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 345px;
     }
     .p-img-item-w{
         width: 230px;
@@ -706,7 +803,7 @@ body::-webkit-scrollbar-thumb {
         width: 100%;
     }
     .product-content-image{
-        padding-top: 0;
+        padding-top: 60px;
     }
     .product-img-item{
         margin-top: 0;
@@ -754,6 +851,11 @@ body::-webkit-scrollbar-thumb {
     }
     .s-h-block-content{
         margin: 0;
+        width: 100%;
+        height: 450px;
+    }
+    .s-h-block-content_2{
+        height: 450px;
         width: 100%;
     }
     .s-h-img{
@@ -873,28 +975,5 @@ body::-webkit-scrollbar-thumb {
     .mar-r-15{
         margin-right: 15px;
     }
-
-/* nav-panel*/
-    .backed-block{
-        width: 250px;
-        height: 190%;
-        position: fixed;
-        background: #ffffff;
-        z-index: 2;
-        top: 0;
-        right: 0;
-        opacity: 0;
-        transform: translateX(100%);
-    }
-    .active-nav{
-        transform: translateX(0);
-        opacity: 1;
-    }
-    .backed-block-container{
-        background: red;
-        width: 100%;
-        height: 100%;
-    }
-/*    nav-panel*/
 }
 /*mobile-optimize*/

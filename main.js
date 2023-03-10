@@ -5,5 +5,6 @@ document.addEventListener('DOMContentLoaded' , () => {
     backedIcon.addEventListener('click' , (event) =>{
         console.log()
         backedNav.classList.add('active-nav')
+
     })
 })
