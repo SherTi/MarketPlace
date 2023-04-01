@@ -46,6 +46,43 @@ body::-webkit-scrollbar-thumb {
     padding: 0 calc((100% - 1712px) / 2);
 }
 /*header*/
+.swiper{
+    width: 100%;
+}
+.s-dot-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s-dot{
+    width: 10px;
+    height: 10px;
+    background: #e6e6fa;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 8px;
+    cursor: pointer;
+}
+.slider-dots-active{
+    background: #35358d;
+    height: 10px;
+    width: 10px;
+}
+.nav_0icon0{
+    width: 15px;
+    fill: lavender;
+    cursor: pointer;
+}
+.nav_0icon0:hover{
+    fill: #35358d;
+    transition: all .1s;
+}
+.nav_swiper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
 .l-element{
     width: 15px;
     height: 15px;
@@ -127,8 +164,7 @@ body::-webkit-scrollbar-thumb {
     position: static;
 }
 .__background_2{
-    background: url("assets/black-women.jpg");
-    background-size: cover;
+    background: url("assets/c837a6_98a516fd3a66427ab4cd0cf2b2a13ca2_mv2.webp") center/ cover no-repeat fixed;
 }
 .__background_opacity:after{
     content: "";
@@ -139,9 +175,6 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     height: 100%;
     z-index: 1;
-}
-.__background_3{
-    background: url("assets/c837a6_98a516fd3a66427ab4cd0cf2b2a13ca2~mv2.png") left/ cover no-repeat fixed;
 }
 .background-block{
     width: 100%;
@@ -266,316 +299,9 @@ margin-bottom: 36px;
     position: relative;
     z-index: 1;
 }
-.mar-t-50{
-    margin-top: 50px;
-}
-.mar-r-40{
-    margin-right: 40px;
-    margin-left: 0;
-}
 .background-3{
     background: rgb(110,110,110);
 }
-.position-img{
-    margin-left: 260px;
-    margin-top: 128px;
-    z-index: 1;
-    position: relative;
-}
-/*presentation-page*/
-
-/*presentation-2-page*/
-
-.w-content-body-text{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    margin-top: 150px;
-}
-.w-icon{
-    margin-bottom: 40px;
-
-}
-.mar-b-24{
-    margin-bottom: 24px;
-}
-.w-50{
-    width: 40%;
-    text-align: center;
-}
-.w-img-block{
-    background: url("assets/line.png");
-    background-size: 100%;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.btn-block{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 124px;
-}
-/*presentation-2-page*/
-
-/*presentation-4-page*/
-.product-info-area{
-    position: relative;
-}
-.background-p{
-    width: 100%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    z-index: -1;
-}
-.h74{
-    height: 74vh;
-}
-.product-content-image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    padding-top: 145px;
-    text-align: center;
-    position: relative;
-}
-.product-img-item{
-    margin-top: 200px;
-    position: relative;
-    z-index: -1;
-    width: 739px;
-    height: 949px;
-    background-size: cover;
-}
-.p-info-card-title{
-    display: flex;
-    align-items: center;
-    margin-bottom: 24px;
-}
-.product-info-card{
-    width: 400px;
-    padding: 25px;
-    background: rgb(34,35,35);
-    border-radius: 15px;
-    box-shadow:  0.00px 8.00px 40px 2px rgba(0,0,0,0.49),0 1px 4px rgba(0,0,0,.6);
-}
-.product-info-text{
-    font-size: 25px;
-    line-height: 1.5em;
-    margin-left: 15px;
-}
-.w-80{
-    width: 80%;
-    text-align: start;
-}
-.pos-1-card{
-    top: 28%;
-    position: absolute;
-    left: 14%;
-}
-.pos-2-card{
-    position: absolute;
-    top: 26%;
-    right: 17%;
-}
-.pos-3-card{
-    top: 74%;
-    position: absolute;
-    left: 16%;
-}
-.pos-4-card{
-    position: absolute;
-    top: 77%;
-    right: 21%;
-}
-.mar-default{
-    margin: 0;
-}
-.mar-t-80{
-    margin: 80px 0 255px 0;
-}
-
-/*presentation-4-page*/
-
-/*section-how-using*/
-.s-h-main-block{
-    display: flex;
-    margin-top: 50px;
-    justify-content: center;
-}
-.s-h-block-content{
-    position: relative;
-    background: url("assets/black-women-2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 954px;
-    width: 100%;
-}
-.s-h-block-content_2{
-    background: url("assets/mamolog.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 954px;
-    width: 100%;
-}
-
-.s-h-content-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-top: 50px;
-}
-.s-h-img{
-    position: relative;
-    z-index: -1;
-}
-.s-h-text{
-    font-size: 40px;
-    align-items: center;
-    line-height: 1.2em;
-
-}
-.s-h-pos{
-    right: 0;
-    left: 0;
-}
-.s-h-w-80{
-    width: 60%;
-}
-.s-h-w-35{
-    width: 35%;
-}
-.container-how-using{
-    padding: 0 calc((100% - 1560px) / 2);
-}
-/*section-how-using*/
-.text-w-50{
-    width: 30%;
-}
-/**/
-.order-product-area{
-    margin-top: 115px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.order-icon{
-    margin-bottom: 26px;
-}
-.w-50{
-    width: 50%;
-    text-align: center;
-}
-.sub-form-item{
-    display: flex;
-    flex-direction: column;
-}
-.sub-w-text{
-    padding: 30px 220px 30px 38px;
-    border-radius: 40px;
-    background: #ffffff;
-    width: 100%;
-    box-shadow:  0 1px 20px 0 rgba(125,43,196,1),0 0 0 transparent;
-    font-size: 16px;
-    color: #000000;
-    border: 1px solid rgb(255,64,64);
-}
-.sub-form-block{
-    width: 900px;
-    height: 76px;
-    margin-bottom: 200px;
-}
-.sub-form-item{
-    position: relative;
-}
-.sub-btn{
-    position: absolute;
-    width: 200px;
-    font-size: 16px;
-    padding:25px 0;
-    border-radius: 40px;
-    top: 6px;
-    right: 8px;
-    background: rgb(125,43,196);
-    color: #ffffff;
-    cursor: pointer;
-    box-shadow:  0 1px 20px 0 rgba(125,43,196,1),0 1px 4px rgba(0,0,0,.6);
-}
-.sub-text{
-    padding: 0  20px 0 38px;
-    font-size: 14px;
-    margin: 0 0 20px;
-    }
-/**/
-
-/*backed-page*/
-.basked-container{
-    display: flex;
-    justify-content: center;
-}
-.basked-item-block{
-    width: 980px;
-}
-.b-title-text{
-    font-size: 20px ;
-    padding: 10px 0 16px 0 ;
-}
-.b-block-content-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 210px 0;
-    flex-direction: column;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-.b-b-text-body-link{
-    font-size: 15px;
-    text-decoration: underline;
-    color: #ffffff;
-}
-.b-b-text-body{
-    font-size: 22px;
-    margin-bottom: 15px;
-}
-/*backed-page*/
-
-/*parallax-effect*/
-._parallax{
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-}
-._parallax_content{
-    background: url('assets/man.jpg') top / contain no-repeat  fixed;
-    width: 1903px;
-    height: 748px;
-    position: relative;
-}
-._parallax_img:after{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.6);
-    z-index: 0;
-}
-/*parallax0effect*/
 
 /* nav-panel*/
 .basked_item_block{
@@ -627,7 +353,6 @@ margin-bottom: 36px;
     text-align: center;
 }
 
-/*    nav-panel*/
 /*footer*/
 .footer-block{
     background: url("assets/background.jpg");
@@ -670,10 +395,6 @@ margin-bottom: 36px;
 @media (max-width: 2560px) {
     .presentation-img-content{
         width: 43%;
-    }
-    ._parallax_content {
-        background: url(assets/man.jpg) top / cover no-repeat fixed;
-        width: 100%;
     }
 }
 /*mobile-optimize*/
@@ -754,23 +475,11 @@ margin-bottom: 36px;
         height: 348px;
     }
     .__background_2{
-        background: url("assets/blackwomen_69.jpg");
-        background-repeat: no-repeat;
+        background: url("assets/c837a6_98a516fd3a66427ab4cd0cf2b2a13ca2_mv2.webp") center/ cover no-repeat fixed;
         background-size: 100% 100%;
     }
     .p-r-des-text-2{
         width: 100%;
-    }
-    ._parallax_body{
-        height: 322px;
-        width: 100%;
-    }
-    ._parallax_content{
-        background: url("assets/men.jpg");
-        background-size: cover;
-        height: 332px;
-        padding: 30px 30px;
-        background-repeat: no-repeat;
     }
     .presentation-img-content{
         margin-left: 0;
@@ -797,9 +506,6 @@ margin-bottom: 36px;
         width: 230px;
         height: 325px;
     }
-    .mar-t-50{
-        margin-top: 20px;
-    }
     .w-p-img{
         width: 230px;
         height: 230px;
@@ -811,20 +517,6 @@ margin-bottom: 36px;
     }
     .background-3{
         background: linear-gradient(-286deg, rgba(110,110,110,1) 2%, rgba(34,35,35,1) 61%);
-    }
-    .w-content-body-text{
-        margin-top:20px;
-    }
-    .w-img-block{
-        background-repeat: no-repeat;
-    }
-    .watches-img{
-        width: 300px;
-        height: 216px;
-    }
-    .w-icon{
-        width: 40px;
-        height: 40px;
     }
     .p-btn{
         width: 150px;
@@ -844,9 +536,6 @@ margin-bottom: 36px;
         margin-top: 0;
         width: 220px;
         height: 280px;
-    }
-    .product-info-area{
-        margin-top: 20px;
     }
     .p-default{
         position: static;
@@ -868,12 +557,6 @@ margin-bottom: 36px;
     }
     .w-65{
         width: 65%;
-    }
-    .background-p{
-        height: 28%;
-    }
-    .mar-t-80{
-        margin: 25px 0 0 0;
     }
     .s-h-main-block{
         flex-direction: column;
