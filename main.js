@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded' , () => {
             type: "bullets",
             bulletActiveClass: "slider-dots-active",
             el: "#dots-container",
-            bulletClass: "s-dot"
+            bulletClass: "s-dot",
         }
     });
 
