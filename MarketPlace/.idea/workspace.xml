@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c233f5bc-3f5c-4033-858d-c83c988d7c2a" name="Changes" comment="" />
+    <list default="true" id="c233f5bc-3f5c-4033-858d-c83c988d7c2a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../assets/1680611019124.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/2019-MP-WEB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/PicsArt_04-04-05.10.28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/Visa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/background_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/background__img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/brand-chinaunionpay_3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/brand-mastercard_3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/c837a6_98a516fd3a66427ab4cd0cf2b2a13ca2_mv2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/iPad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/iPhone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/macBook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/watch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +36,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -36,7 +54,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Work/MarketPlace",
+    "last_opened_file_path": "D:/Work/MarketPlace/MarketPlace",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,6 +93,7 @@
       <workItem from="1680696628453" duration="3797000" />
       <workItem from="1680972992137" duration="705000" />
       <workItem from="1681040013010" duration="3441000" />
+      <workItem from="1681056450137" duration="5000" />
     </task>
     <servers />
   </component>
