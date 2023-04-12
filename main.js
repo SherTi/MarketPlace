@@ -26,8 +26,6 @@ document.addEventListener('DOMContentLoaded' , () => {
                         --value;
                         if (value <= 1) {
                             value = 1;
-
-                            console.log("aaaa");
                         }
                     }
                     target.closest('.product-number').querySelector('input').value = value;
