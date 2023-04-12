@@ -5,27 +5,34 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="assets/" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="main.css">
-    <title>Wix</title>
+    <title>iProduct</title>
 </head>
 <body>
-<div class="container">
+<div class="container header-block">
     <div class="header-container">
-        <div class="h-logo-block">
-            <div class="l-border">
-                <div class="l-element"></div>
+        <a href="index.html">
+            <div class="h-logo-block">
+                <div class="l-border">
+                    <div class="l-element"></div>
+                </div>
+                <div class="l-text"><span class="l-text-item">iProduct</span></div>
             </div>
-            <div class="l-text"><span class="l-text-item">TrackMate</span></div>
-        </div>
+        </a>
         <div class="h-nav-block">
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-1" class="backed-icon">
-                <path d="
+            <div class="backed-block-icon" >
+                <p class="basked-title-text fw">Корзина</p>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-1" class="backed-icon">
+                    <path d="
                        M99.8 28.4c0-1.2-0.9-2-2.1-2h-15c0 3.2 0 7.6 0 8.2 0 1.5-1.2 2.6-2.6 2.9
                        -1.5 0.3-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.9 0-4.7 0-8.2H40.1c0 3.2 0
                         7.3 0 8.2 0 1.5-1.2 2.9-2.6 2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6
                         0-0.6 0-5 0-8.2h-15c-1.2 0-2 0.9-2 2L8.3 124c0 1.2 0.9 2.1 2.1 2.1h96.3c1.2
                         0 2.1-0.9 2.1-2.1L99.8 28.4z"></path>
-                <path d="M59.1 5.9c-2.9 0-2 0-2.9 0 -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3
+                    <path d="M59.1 5.9c-2.9 0-2 0-2.9 0 -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3
                         -0.9 1.8-1.5 3.5-1.8 5.6 0 0.9-0.3 1.5-0.3 2.3 0 1.2 0 2.1 0 3.2 0 1.5-1.2 2.9-2.6
                         2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-1.2 0-2.3 0-3.5 0-3.2 0.9-6.4 2-9.4
                         1.2-2.3 2.6-4.7 4.7-6.4 3.2-2.9 6.7-5 11.1-5.9C53.5 0.3 55 0 56.7 0c1.5 0 2.9 0 4.4
@@ -33,173 +40,1675 @@
                           3.2 0.6 4.7 0 1.2 0 2.3 0 3.2 0 1.5-1.2 2.6-2.6 2.9s-2.9-0.9-3.2-2.3c0-0.3 0-0.3
                           0-0.6 0-1.2 0-2.6 0-3.8 0-2.3-0.6-4.4-1.8-6.4 -1.5-3.2-4.1-5.9-7.3-7.3
                           -1.8-0.9-3.5-1.8-5.9-1.8C61.1 5.9 59.1 5.9 59.1 5.9L59.1 5.9z"></path>
-                <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="bGBBgJ" data-hook="items-count">0</text></svg>
+                    <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="bGBBgJ" data-hook="items-count">0</text></svg>
+            </div>
+        </div>
+    </div>
+    <div class="basked_item_block">
+        <div class="basked_title_block">
+            <button class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="icon-item">
+                    <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5
+                          12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4
+                          86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/>
+                </svg>
+            </button>
+            <span class="basked-title-text">Корзина</span>
+        </div>
+        <div class="basked_body_block">
+            <span class="basked-body-text">Корзина пуста</span>
+            <div class="basked-card">
+                <div class="basked-content-block">
+                    <div class="product-img">
+                        <img src="assets/macBook.png" alt="" class="product-img-item">
+                    </div>
+                    <div class="product-price mar-l ">
+                        <p class="product-text">MacBook</p>
+                        <p class="product-text">1200$</p>
+                    </div>
+                </div>
+                <div class="product-number" data-counter>
+                    <button class="product-num-text counter__btn num-product minus" >-</button>
+                    <div class="counter-input"><input class="product-num-text counter__val" value="1"  disabled></div>
+                    <button class="product-num-text counter__btn num-product plus">+</button>
+                    <div class="delete-product-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="delete-icon-item">
+                            <path d="
+                             M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6
+                             105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5
+                             12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8
+                             12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="basked-card">
+                <div class="basked-content-block">
+                    <div class="product-img">
+                        <img src="assets/macBook.png" alt="" class="product-img-item">
+                    </div>
+                    <div class="product-price mar-l ">
+                        <p class="product-text">MacBook</p>
+                        <p class="product-text">1200$</p>
+                    </div>
+                    </div>
+                    <div class="product-number" data-counter>
+                        <button class="product-num-text counter__btn num-product minus" >-</button>
+                        <div class="counter-input"><input class="product-num-text counter__val" value="1"  disabled></div>
+                        <button class="product-num-text counter__btn num-product plus">+</button>
+                        <div class="delete-product-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="delete-icon-item">
+                                <path d="
+                             M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6
+                             105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5
+                             12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8
+                             12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            <div class="basked-nav-panel">
+                <button class="p-btn product-order">Купить</button>
+            </div>
         </div>
     </div>
 </div>
 <!--header-->
-<!--product-page-->
-<div class="container">
-    <div class="background-block">
-        <img src="assets/background.jpg" alt="" class="background-img">
-    </div>
-    <div class="product-area">
-        <div class="p-text-content">
-            <span class="p-text">Контролируй свое здоровье</span>
-            <span class="p-des-text">0.4 TrackMate XE</span>
-            <span class="p-text">Фитнес-трекер, который мотивирует</span>
-            <a href=""><button class="p-btn">Купить</button></a>
-        </div>
-        <div class="p-img-content">
-            <img src="assets/new%20first%20fold.png" alt="" class="p-img-item">
-        </div>
-    </div>
-</div>
-<!--product-page-->
-<!--presentation-page-->
-<div class="presentation-area">
-    <div class="presentation-text-content">
-        <div class="background-2">
-            <img src="assets/black-women.jpg" alt="" class="background-img-2">
-        </div>
-        <div class="p-r-title-block">
-            <img src="assets/icon%202.png" alt="" class="p-r-title-icon">
-            <span class="p-r-title-text">ОТСЛЕЖИВАНИЕ ТРЕНИРОВОК</span>
-        </div>
-        <div class="p-r-content-body-text">
-            <p class="p-r-des-text">Точная статистика эффективности</p>
-            <p class="p-r-des-text mar-b-36 ">тренировок</p>
-            <p class="p-r-des-text-2">Это текст. Нажмите и выберите «Редактировать текст» или нажмите дважды, чтобы добавить свой текст и настроить шрифт. Расскажите посетителям о себе.</p>
-        </div>
-    </div>
-    <div class="presentation-img-content">
-        <div class="present-img-item"><img src="assets/phone-watch.png" alt="" ></div>
-    </div>
-</div>
-<!--presentation-page-->
-<!--presentation-2-page-->
-<div class="presentation-area mar-t-50">
-    <div class="presentation-img-content mar-r-40">
-        <div class="present-img-item position-img"><img src="assets/watch.png" alt="" ></div>
-    </div>
-    <div class="presentation-text-content">
-        <div class="background-3">
-        </div>
-        <div class="p-r-title-block">
-            <img src="assets/icon%201.png" alt="" class="p-r-title-icon">
-            <span class="p-r-title-text">СИСТЕМА УВЕДОМЛЕНИЙ </span>
-        </div>
-        <div class="p-r-content-body-text">
-            <p class="p-r-des-text">Полезные напоминания</p>
-            <p class="p-r-des-text-2">Это текст. Нажмите и выберите «Редактировать текст» или нажмите дважды, чтобы добавить свой текст и настроить шрифт. Расскажите посетителям о себе.</p>
-        </div>
-    </div>
-</div>
-<!--presentation-2-page-->
-<div class="w-area">
-    <div class="w-content-body-text">
-        <img src="assets/icon%203.png" alt="" class="w-icon">
-        <p class="p-r-des-text mar-b-24">Цвет ремешка под настроение</p>
-        <p class="p-r-des-text-2 w-50">Это текст. Нажмите и выберите «Редактировать текст» или нажмите дважды, чтобы добавить свой текст и настроить шрифт. Расскажите посетителям о себе.</p>
-    </div>
-    <div class="w-img-block">
-        <img src="assets/shutterstock_1521991916%20edited.png" alt="">
-    </div>
-    <div class="btn-block"><a href=""><button class="p-btn">Купить</button></a></div>
-</div>
-<!--presentation-2-page-->
-<!--presentation-z-index-page-->
-<div class="presentation-area background-4 h74">
-    <div class="presentation-text-content">
-        <div class="p-r-title-block">
-            <img src="assets/notifications.png" alt="" class="p-r-title-icon">
-            <span class="p-r-title-text">СИСТЕМА ОПОВЕЩЕНИЙ</span>
-        </div>
-        <div class="p-r-content-body-text">
-            <p class="p-r-des-text mar-b-36">Позволь телу направлять тебя</p>
-            <p class="p-r-des-text-2">Это текст. Нажмите и выберите «Редактировать текст» или нажмите дважды, чтобы добавить свой текст и настроить шрифт. Расскажите посетителям о себе.</p>
-        </div>
-    </div>
-</div>
-<!--presentation-z-index-page-->
-<!--presentation-4-page-->
-<div class="product-info-area">
-    <img src="assets/background_1.png" alt="" class="background-p">
-    <div class="product-content-image">
-        <h1 class="p-r-des-text">Характеристики 0.4 TrackMate XE</h1>
-        <img src="assets/shutterstock_1523629793edited.png" alt="" class="product-img-item">
-        <div class="product-info-card pos-1-card">
-            <div class="p-info-card-title">
-                <img src="assets/icon%206.png" alt="">
-                <span class="product-info-text">20 часов автономии</span>
+<div class="section-block-main">
+    <div class="container __background_1 ">
+        <section class="product-area">
+            <div class="p-text-content">
+                <span class="p-text">iProduct</span>
+                <span class="p-des-text">Онлайн магазин для продажи продукций от Apple</span>
+                <span class="p-text">Mac , iPad , iPhone , Watch , AirPods , TV&Home</span>
+                <a href=""><button class="p-btn">Купить</button></a>
             </div>
-            <p class="p-r-des-text-2 w-80">Это текст. Нажмите здесь, чтобы изменить его.</p>
-        </div>
-        <div class="product-info-card pos-2-card">
-            <div class="p-info-card-title">
-                <img src="assets/icon%208.png" alt="">
-                <span class="product-info-text">Bluetooth</span>
+            <div class="p-img-content">
+                <img src="assets/PicsArt_04-04-05.10.28.png" alt="" class="p-img-content-item">
             </div>
-            <p class="p-r-des-text-2 w-80">Это текст. Нажмите здесь, чтобы изменить его.</p>
-        </div>
-        <div class="product-info-card pos-3-card">
-            <div class="p-info-card-title">
-                <img src="assets/icon%209.png" alt="">
-                <span class="product-info-text">Беспроводная зарядка</span>
+        </section>
+    </div>
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="presentation-area">
+                    <div class="presentation-text-content __background_2">
+                        <div class="__background_opacity"></div>
+                        <div class="p-r-title-block">
+                            <span class="p-r-title-text">iProduct</span>
+                        </div>
+                        <div class="p-r-content-body-text">
+                            <p class="p-r-des-text mar-b-36">Mac Pro </p>
+                            <p class="p-r-des-text-2 mar-b-36  mar-b-10">Просто монстр. Знакомьтесь, тот самый — самый впечатляющий Mac. Потрясающая производительность, невероятный потенциал расширения системы и создания пользовательских конфигураций. С Mac Pro для многих профи невозможное станет возможным.</p>
+                            <ul class="parameter-main-block">
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Процессор</p>
+                                    <p class="p-r-des-text-2">Intel Xeon W-3245 (16 ядер, 32 потока, 3,2 ГГц, Turbo Boost до 4,4 ГГц)</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Оперативная память</p>
+                                    <p class="p-r-des-text-2">192 ГБ LPDDR4 2666 МГц или 2933 МГц</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Дискретная графика</p>
+                                    <p class="p-r-des-text-2">2 AMD Radeon Pro Vega II c 32 ГБ памяти HBM2 с пропускной способностью 1 ТБ/с</p>
+                                </li>
+                                <li class="parameter-item mar-b-36">
+                                    <p class="p-r-des-text-2">Накопитель SSD</p>
+                                    <p class="p-r-des-text-2">4 ТБ</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2 price-num-text">Цена</p>
+                                    <p class="p-r-des-text-2 price-num-text">1999$</p>
+                                </li>
+                                <li class="parameter-item basked-add-item">
+                                    <button class="add_basked">
+                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-1" class="backed-icon">
+                                        <path d="
+                                        M99.8 28.4c0-1.2-0.9-2-2.1-2h-15c0 3.2 0 7.6 0 8.2 0 1.5-1.2 2.6-2.6 2.9
+                                        -1.5 0.3-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.9 0-4.7 0-8.2H40.1c0 3.2 0
+                                        7.3 0 8.2 0 1.5-1.2 2.9-2.6 2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6
+                                        0-0.6 0-5 0-8.2h-15c-1.2 0-2 0.9-2 2L8.3 124c0 1.2 0.9 2.1 2.1 2.1h96.3c1.2
+                                        0 2.1-0.9 2.1-2.1L99.8 28.4z"></path>
+                                        <path d="M59.1 5.9c-2.9 0-2 0-2.9 0 -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3
+                                        -0.9 1.8-1.5 3.5-1.8 5.6 0 0.9-0.3 1.5-0.3 2.3 0 1.2 0 2.1 0 3.2 0 1.5-1.2 2.9-2.6
+                                        2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-1.2 0-2.3 0-3.5 0-3.2 0.9-6.4 2-9.4
+                                        1.2-2.3 2.6-4.7 4.7-6.4 3.2-2.9 6.7-5 11.1-5.9C53.5 0.3 55 0 56.7 0c1.5 0 2.9 0 4.4
+                                        0 2.9 0 5.6 0.6 7.9 1.8 2.6 1.2 5 2.6 6.7 4.4 3.2 3.2 5.3 6.7 6.4 11.1 0.3 1.5 0.6
+                                        3.2 0.6 4.7 0 1.2 0 2.3 0 3.2 0 1.5-1.2 2.6-2.6 2.9s-2.9-0.9-3.2-2.3c0-0.3 0-0.3
+                                        0-0.6 0-1.2 0-2.6 0-3.8 0-2.3-0.6-4.4-1.8-6.4 -1.5-3.2-4.1-5.9-7.3-7.3
+                                        -1.8-0.9-3.5-1.8-5.9-1.8C61.1 5.9 59.1 5.9 59.1 5.9L59.1 5.9z"></path>
+                                        <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="bGBBgJ" data-hook="items-count">0</text></svg>
+                                    Добавить в корзину</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="presentation-img-content">
+                        <div class="present-img-item"><img src="assets/2019-MP-WEB.png" alt="" class="p-img-item-w" ></div>
+                    </div>
+                </div>
             </div>
-            <p class="p-r-des-text-2 w-80">Это текст. Нажмите здесь, чтобы изменить его.</p>
-        </div>
-        <div class="product-info-card pos-4-card">
-            <div class="p-info-card-title">
-                <img src="assets/icon%207.png" alt="">
-                <span class="product-info-text">Водонепроницаемость</span>
+            <div class="swiper-slide">
+                <div class="presentation-area">
+                    <div class="presentation-text-content __background_2">
+                        <div class="__background_opacity"></div>
+                        <div class="p-r-title-block">
+                            <span class="p-r-title-text">iProduct</span>
+                        </div>
+                        <div class="p-r-content-body-text">
+                            <p class="p-r-des-text mar-b-36">Mac Book</p>
+                            <p class="p-r-des-text-2 mar-b-36  mar-b-10">Просто монстр. Знакомьтесь, тот самый — самый впечатляющий Mac. Потрясающая производительность, невероятный потенциал расширения системы и создания пользовательских конфигураций. С Mac Pro для многих профи невозможное станет возможным.</p>
+                            <ul class="parameter-main-block">
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Процессор</p>
+                                    <p class="p-r-des-text-2">Intel Xeon W-3245 (16 ядер, 32 потока, 3,2 ГГц, Turbo Boost до 4,4 ГГц)</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Оперативная память</p>
+                                    <p class="p-r-des-text-2">192 ГБ LPDDR4 2666 МГц или 2933 МГц</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Дискретная графика</p>
+                                    <p class="p-r-des-text-2">2 AMD Radeon Pro Vega II c 32 ГБ памяти HBM2 с пропускной способностью 1 ТБ/с</p>
+                                </li>
+                                <li class="parameter-item mar-b-36">
+                                    <p class="p-r-des-text-2">Накопитель SSD</p>
+                                    <p class="p-r-des-text-2">4 ТБ</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2 price-num-text">Цена</p>
+                                    <p class="p-r-des-text-2 price-num-text">1999$</p>
+                                </li>
+                                <li class="parameter-item basked-add-item">
+                                    <button class="add_basked">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-1" class="backed-icon">
+                                            <path d="
+                                        M99.8 28.4c0-1.2-0.9-2-2.1-2h-15c0 3.2 0 7.6 0 8.2 0 1.5-1.2 2.6-2.6 2.9
+                                        -1.5 0.3-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.9 0-4.7 0-8.2H40.1c0 3.2 0
+                                        7.3 0 8.2 0 1.5-1.2 2.9-2.6 2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6
+                                        0-0.6 0-5 0-8.2h-15c-1.2 0-2 0.9-2 2L8.3 124c0 1.2 0.9 2.1 2.1 2.1h96.3c1.2
+                                        0 2.1-0.9 2.1-2.1L99.8 28.4z"></path>
+                                            <path d="M59.1 5.9c-2.9 0-2 0-2.9 0 -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3
+                                        -0.9 1.8-1.5 3.5-1.8 5.6 0 0.9-0.3 1.5-0.3 2.3 0 1.2 0 2.1 0 3.2 0 1.5-1.2 2.9-2.6
+                                        2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-1.2 0-2.3 0-3.5 0-3.2 0.9-6.4 2-9.4
+                                        1.2-2.3 2.6-4.7 4.7-6.4 3.2-2.9 6.7-5 11.1-5.9C53.5 0.3 55 0 56.7 0c1.5 0 2.9 0 4.4
+                                        0 2.9 0 5.6 0.6 7.9 1.8 2.6 1.2 5 2.6 6.7 4.4 3.2 3.2 5.3 6.7 6.4 11.1 0.3 1.5 0.6
+                                        3.2 0.6 4.7 0 1.2 0 2.3 0 3.2 0 1.5-1.2 2.6-2.6 2.9s-2.9-0.9-3.2-2.3c0-0.3 0-0.3
+                                        0-0.6 0-1.2 0-2.6 0-3.8 0-2.3-0.6-4.4-1.8-6.4 -1.5-3.2-4.1-5.9-7.3-7.3
+                                        -1.8-0.9-3.5-1.8-5.9-1.8C61.1 5.9 59.1 5.9 59.1 5.9L59.1 5.9z"></path>
+                                            <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="bGBBgJ" data-hook="items-count">0</text></svg>
+                                        Добавить в корзину</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="presentation-img-content">
+                        <div class="present-img-item"><img src="assets/macBook.png" alt="" class="p-img-item-w" ></div>
+                    </div>
+                </div>
             </div>
-            <p class="p-r-des-text-2 w-80">Это текст. Нажмите здесь, чтобы изменить его.</p>
+            <div class="swiper-slide">
+                <div class="presentation-area">
+                    <div class="presentation-text-content __background_2">
+                        <div class="__background_opacity"></div>
+                        <div class="p-r-title-block">
+                            <span class="p-r-title-text">iProduct</span>
+                        </div>
+                        <div class="p-r-content-body-text">
+                            <p class="p-r-des-text mar-b-36">iPad</p>
+                            <p class="p-r-des-text-2 mar-b-36  mar-b-10">Просто монстр. Знакомьтесь, тот самый — самый впечатляющий Mac. Потрясающая производительность, невероятный потенциал расширения системы и создания пользовательских конфигураций. С Mac Pro для многих профи невозможное станет возможным.</p>
+                            <ul class="parameter-main-block">
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Процессор</p>
+                                    <p class="p-r-des-text-2">Intel Xeon W-3245 (16 ядер, 32 потока, 3,2 ГГц, Turbo Boost до 4,4 ГГц)</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Оперативная память</p>
+                                    <p class="p-r-des-text-2">192 ГБ LPDDR4 2666 МГц или 2933 МГц</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Дискретная графика</p>
+                                    <p class="p-r-des-text-2">2 AMD Radeon Pro Vega II c 32 ГБ памяти HBM2 с пропускной способностью 1 ТБ/с</p>
+                                </li>
+                                <li class="parameter-item mar-b-36">
+                                    <p class="p-r-des-text-2">Накопитель SSD</p>
+                                    <p class="p-r-des-text-2">4 ТБ</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2 price-num-text">Цена</p>
+                                    <p class="p-r-des-text-2 price-num-text">1999$</p>
+                                </li>
+                                <li class="parameter-item basked-add-item">
+                                    <button class="add_basked">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-1" class="backed-icon">
+                                            <path d="
+                                        M99.8 28.4c0-1.2-0.9-2-2.1-2h-15c0 3.2 0 7.6 0 8.2 0 1.5-1.2 2.6-2.6 2.9
+                                        -1.5 0.3-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.9 0-4.7 0-8.2H40.1c0 3.2 0
+                                        7.3 0 8.2 0 1.5-1.2 2.9-2.6 2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6
+                                        0-0.6 0-5 0-8.2h-15c-1.2 0-2 0.9-2 2L8.3 124c0 1.2 0.9 2.1 2.1 2.1h96.3c1.2
+                                        0 2.1-0.9 2.1-2.1L99.8 28.4z"></path>
+                                            <path d="M59.1 5.9c-2.9 0-2 0-2.9 0 -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3
+                                        -0.9 1.8-1.5 3.5-1.8 5.6 0 0.9-0.3 1.5-0.3 2.3 0 1.2 0 2.1 0 3.2 0 1.5-1.2 2.9-2.6
+                                        2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-1.2 0-2.3 0-3.5 0-3.2 0.9-6.4 2-9.4
+                                        1.2-2.3 2.6-4.7 4.7-6.4 3.2-2.9 6.7-5 11.1-5.9C53.5 0.3 55 0 56.7 0c1.5 0 2.9 0 4.4
+                                        0 2.9 0 5.6 0.6 7.9 1.8 2.6 1.2 5 2.6 6.7 4.4 3.2 3.2 5.3 6.7 6.4 11.1 0.3 1.5 0.6
+                                        3.2 0.6 4.7 0 1.2 0 2.3 0 3.2 0 1.5-1.2 2.6-2.6 2.9s-2.9-0.9-3.2-2.3c0-0.3 0-0.3
+                                        0-0.6 0-1.2 0-2.6 0-3.8 0-2.3-0.6-4.4-1.8-6.4 -1.5-3.2-4.1-5.9-7.3-7.3
+                                        -1.8-0.9-3.5-1.8-5.9-1.8C61.1 5.9 59.1 5.9 59.1 5.9L59.1 5.9z"></path>
+                                            <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="bGBBgJ" data-hook="items-count">0</text></svg>
+                                        Добавить в корзину</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="presentation-img-content">
+                        <div class="present-img-item"><img src="assets/iPad.png" alt="" class="p-img-item-w" ></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="presentation-area">
+                    <div class="presentation-text-content __background_2">
+                        <div class="__background_opacity"></div>
+                        <div class="p-r-title-block">
+                            <span class="p-r-title-text">iProduct</span>
+                        </div>
+                        <div class="p-r-content-body-text">
+                            <p class="p-r-des-text mar-b-36">iPhone</p>
+                            <p class="p-r-des-text-2 mar-b-36  mar-b-10">Просто монстр. Знакомьтесь, тот самый — самый впечатляющий Mac. Потрясающая производительность, невероятный потенциал расширения системы и создания пользовательских конфигураций. С Mac Pro для многих профи невозможное станет возможным.</p>
+                            <ul class="parameter-main-block">
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Процессор</p>
+                                    <p class="p-r-des-text-2">Intel Xeon W-3245 (16 ядер, 32 потока, 3,2 ГГц, Turbo Boost до 4,4 ГГц)</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Оперативная память</p>
+                                    <p class="p-r-des-text-2">192 ГБ LPDDR4 2666 МГц или 2933 МГц</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Дискретная графика</p>
+                                    <p class="p-r-des-text-2">2 AMD Radeon Pro Vega II c 32 ГБ памяти HBM2 с пропускной способностью 1 ТБ/с</p>
+                                </li>
+                                <li class="parameter-item mar-b-36">
+                                    <p class="p-r-des-text-2">Накопитель SSD</p>
+                                    <p class="p-r-des-text-2">4 ТБ</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2 price-num-text">Цена</p>
+                                    <p class="p-r-des-text-2 price-num-text">1999$</p>
+                                </li>
+                                <li class="parameter-item basked-add-item">
+                                    <button class="add_basked">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-1" class="backed-icon">
+                                            <path d="
+                                        M99.8 28.4c0-1.2-0.9-2-2.1-2h-15c0 3.2 0 7.6 0 8.2 0 1.5-1.2 2.6-2.6 2.9
+                                        -1.5 0.3-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.9 0-4.7 0-8.2H40.1c0 3.2 0
+                                        7.3 0 8.2 0 1.5-1.2 2.9-2.6 2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6
+                                        0-0.6 0-5 0-8.2h-15c-1.2 0-2 0.9-2 2L8.3 124c0 1.2 0.9 2.1 2.1 2.1h96.3c1.2
+                                        0 2.1-0.9 2.1-2.1L99.8 28.4z"></path>
+                                            <path d="M59.1 5.9c-2.9 0-2 0-2.9 0 -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3
+                                        -0.9 1.8-1.5 3.5-1.8 5.6 0 0.9-0.3 1.5-0.3 2.3 0 1.2 0 2.1 0 3.2 0 1.5-1.2 2.9-2.6
+                                        2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-1.2 0-2.3 0-3.5 0-3.2 0.9-6.4 2-9.4
+                                        1.2-2.3 2.6-4.7 4.7-6.4 3.2-2.9 6.7-5 11.1-5.9C53.5 0.3 55 0 56.7 0c1.5 0 2.9 0 4.4
+                                        0 2.9 0 5.6 0.6 7.9 1.8 2.6 1.2 5 2.6 6.7 4.4 3.2 3.2 5.3 6.7 6.4 11.1 0.3 1.5 0.6
+                                        3.2 0.6 4.7 0 1.2 0 2.3 0 3.2 0 1.5-1.2 2.6-2.6 2.9s-2.9-0.9-3.2-2.3c0-0.3 0-0.3
+                                        0-0.6 0-1.2 0-2.6 0-3.8 0-2.3-0.6-4.4-1.8-6.4 -1.5-3.2-4.1-5.9-7.3-7.3
+                                        -1.8-0.9-3.5-1.8-5.9-1.8C61.1 5.9 59.1 5.9 59.1 5.9L59.1 5.9z"></path>
+                                            <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="bGBBgJ" data-hook="items-count">0</text></svg>
+                                        Добавить в корзину</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="presentation-img-content">
+                        <div class="present-img-item"><img src="assets/iPhone.png" alt="" class="p-img-item-w i-phone-img"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="presentation-area">
+                    <div class="presentation-text-content __background_2">
+                        <div class="__background_opacity"></div>
+                        <div class="p-r-title-block">
+                            <span class="p-r-title-text">iProduct</span>
+                        </div>
+                        <div class="p-r-content-body-text">
+                            <p class="p-r-des-text mar-b-36">Watch</p>
+                            <p class="p-r-des-text-2 mar-b-36  mar-b-10">Просто монстр. Знакомьтесь, тот самый — самый впечатляющий Mac. Потрясающая производительность, невероятный потенциал расширения системы и создания пользовательских конфигураций. С Mac Pro для многих профи невозможное станет возможным.</p>
+                            <ul class="parameter-main-block">
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Процессор</p>
+                                    <p class="p-r-des-text-2">Intel Xeon W-3245 (16 ядер, 32 потока, 3,2 ГГц, Turbo Boost до 4,4 ГГц)</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Оперативная память</p>
+                                    <p class="p-r-des-text-2">192 ГБ LPDDR4 2666 МГц или 2933 МГц</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Дискретная графика</p>
+                                    <p class="p-r-des-text-2">2 AMD Radeon Pro Vega II c 32 ГБ памяти HBM2 с пропускной способностью 1 ТБ/с</p>
+                                </li>
+                                <li class="parameter-item mar-b-36">
+                                    <p class="p-r-des-text-2">Накопитель SSD</p>
+                                    <p class="p-r-des-text-2">4 ТБ</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2 price-num-text">Цена</p>
+                                    <p class="p-r-des-text-2 price-num-text">1999$</p>
+                                </li>
+                                <li class="parameter-item basked-add-item">
+                                    <button class="add_basked">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-1" class="backed-icon">
+                                            <path d="
+                                        M99.8 28.4c0-1.2-0.9-2-2.1-2h-15c0 3.2 0 7.6 0 8.2 0 1.5-1.2 2.6-2.6 2.9
+                                        -1.5 0.3-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.9 0-4.7 0-8.2H40.1c0 3.2 0
+                                        7.3 0 8.2 0 1.5-1.2 2.9-2.6 2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6
+                                        0-0.6 0-5 0-8.2h-15c-1.2 0-2 0.9-2 2L8.3 124c0 1.2 0.9 2.1 2.1 2.1h96.3c1.2
+                                        0 2.1-0.9 2.1-2.1L99.8 28.4z"></path>
+                                            <path d="M59.1 5.9c-2.9 0-2 0-2.9 0 -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3
+                                        -0.9 1.8-1.5 3.5-1.8 5.6 0 0.9-0.3 1.5-0.3 2.3 0 1.2 0 2.1 0 3.2 0 1.5-1.2 2.9-2.6
+                                        2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-1.2 0-2.3 0-3.5 0-3.2 0.9-6.4 2-9.4
+                                        1.2-2.3 2.6-4.7 4.7-6.4 3.2-2.9 6.7-5 11.1-5.9C53.5 0.3 55 0 56.7 0c1.5 0 2.9 0 4.4
+                                        0 2.9 0 5.6 0.6 7.9 1.8 2.6 1.2 5 2.6 6.7 4.4 3.2 3.2 5.3 6.7 6.4 11.1 0.3 1.5 0.6
+                                        3.2 0.6 4.7 0 1.2 0 2.3 0 3.2 0 1.5-1.2 2.6-2.6 2.9s-2.9-0.9-3.2-2.3c0-0.3 0-0.3
+                                        0-0.6 0-1.2 0-2.6 0-3.8 0-2.3-0.6-4.4-1.8-6.4 -1.5-3.2-4.1-5.9-7.3-7.3
+                                        -1.8-0.9-3.5-1.8-5.9-1.8C61.1 5.9 59.1 5.9 59.1 5.9L59.1 5.9z"></path>
+                                            <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="bGBBgJ" data-hook="items-count">0</text></svg>
+                                        Добавить в корзину</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="presentation-img-content">
+                        <div class="present-img-item"><img src="assets/Watch.png" alt="" class="p-img-item-w " ></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav_swiper">
+            <div class="btn-prev">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="nav_0icon0">
+                    <path d="
+                    M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8
+                    0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/>
+                </svg>
+            </div>
+            <div id="dots-container" class="s-dot-block"></div>
+            <div class="btn-next">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="nav_0icon0">
+                    <path d="
+                    M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8
+                     0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/>
+                </svg>
+            </div>
         </div>
     </div>
-    <div class="btn-block  mar-t-80"><a href=""><button class="p-btn mar-default">Купить</button></a></div>
-</div>
-<!--presentation-4-page-->
-
-<!--section-how-using-->
-<div class="container">
-    <div class="s-h-main-block">
-        <div class="s-h-block-content mar-r-40">
-            <div class="s-h-content-body s-h-pos">
-                <img src="assets/icon%205.png" alt="" class="mar-b-36">
-                <span class="p-r-title-text mar-b-36">СИСТЕМА УВЕДОМЛЕНИЙ </span>
-                <span class="s-h-text s-h-w-35">Отслеживайте свой сон</span>
+    <div class="swiper_1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="presentation-area">
+                    <div class="presentation-text-content __background_2">
+                        <div class="__background_opacity"></div>
+                        <div class="p-r-title-block">
+                            <span class="p-r-title-text">iProduct</span>
+                        </div>
+                        <div class="p-r-content-body-text">
+                            <p class="p-r-des-text mar-b-36">Mac Book</p>
+                            <p class="p-r-des-text-2 mar-b-36  mar-b-10">Просто монстр. Знакомьтесь, тот самый — самый впечатляющий Mac. Потрясающая производительность, невероятный потенциал расширения системы и создания пользовательских конфигураций. С Mac Pro для многих профи невозможное станет возможным.</p>
+                            <ul class="parameter-main-block">
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Процессор</p>
+                                    <p class="p-r-des-text-2">Intel Xeon W-3245 (16 ядер, 32 потока, 3,2 ГГц, Turbo Boost до 4,4 ГГц)</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Оперативная память</p>
+                                    <p class="p-r-des-text-2">192 ГБ LPDDR4 2666 МГц или 2933 МГц</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Дискретная графика</p>
+                                    <p class="p-r-des-text-2">2 AMD Radeon Pro Vega II c 32 ГБ памяти HBM2 с пропускной способностью 1 ТБ/с</p>
+                                </li>
+                                <li class="parameter-item mar-b-36">
+                                    <p class="p-r-des-text-2">Накопитель SSD</p>
+                                    <p class="p-r-des-text-2">4 ТБ</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2 price-num-text">Цена</p>
+                                    <p class="p-r-des-text-2 price-num-text">1999$</p>
+                                </li>
+                                <li class="parameter-item basked-add-item">
+                                    <button class="add_basked">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-1" class="backed-icon">
+                                            <path d="
+                                        M99.8 28.4c0-1.2-0.9-2-2.1-2h-15c0 3.2 0 7.6 0 8.2 0 1.5-1.2 2.6-2.6 2.9
+                                        -1.5 0.3-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.9 0-4.7 0-8.2H40.1c0 3.2 0
+                                        7.3 0 8.2 0 1.5-1.2 2.9-2.6 2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6
+                                        0-0.6 0-5 0-8.2h-15c-1.2 0-2 0.9-2 2L8.3 124c0 1.2 0.9 2.1 2.1 2.1h96.3c1.2
+                                        0 2.1-0.9 2.1-2.1L99.8 28.4z"></path>
+                                            <path d="M59.1 5.9c-2.9 0-2 0-2.9 0 -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3
+                                        -0.9 1.8-1.5 3.5-1.8 5.6 0 0.9-0.3 1.5-0.3 2.3 0 1.2 0 2.1 0 3.2 0 1.5-1.2 2.9-2.6
+                                        2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-1.2 0-2.3 0-3.5 0-3.2 0.9-6.4 2-9.4
+                                        1.2-2.3 2.6-4.7 4.7-6.4 3.2-2.9 6.7-5 11.1-5.9C53.5 0.3 55 0 56.7 0c1.5 0 2.9 0 4.4
+                                        0 2.9 0 5.6 0.6 7.9 1.8 2.6 1.2 5 2.6 6.7 4.4 3.2 3.2 5.3 6.7 6.4 11.1 0.3 1.5 0.6
+                                        3.2 0.6 4.7 0 1.2 0 2.3 0 3.2 0 1.5-1.2 2.6-2.6 2.9s-2.9-0.9-3.2-2.3c0-0.3 0-0.3
+                                        0-0.6 0-1.2 0-2.6 0-3.8 0-2.3-0.6-4.4-1.8-6.4 -1.5-3.2-4.1-5.9-7.3-7.3
+                                        -1.8-0.9-3.5-1.8-5.9-1.8C61.1 5.9 59.1 5.9 59.1 5.9L59.1 5.9z"></path>
+                                            <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="bGBBgJ" data-hook="items-count">0</text></svg>
+                                        Добавить в корзину</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="presentation-img-content">
+                        <div class="present-img-item"><img src="assets/macBook.png" alt="" class="p-img-item-w" ></div>
+                    </div>
+                </div>
             </div>
-            <img src="assets/black-women-2.jpg" alt="" class="s-h-img ">
+            <div class="swiper-slide">
+                <div class="presentation-area">
+                    <div class="presentation-text-content __background_2">
+                        <div class="__background_opacity"></div>
+                        <div class="p-r-title-block">
+                            <span class="p-r-title-text">iProduct</span>
+                        </div>
+                        <div class="p-r-content-body-text">
+                            <p class="p-r-des-text mar-b-36">Mac Book</p>
+                            <p class="p-r-des-text-2 mar-b-36  mar-b-10">Просто монстр. Знакомьтесь, тот самый — самый впечатляющий Mac. Потрясающая производительность, невероятный потенциал расширения системы и создания пользовательских конфигураций. С Mac Pro для многих профи невозможное станет возможным.</p>
+                            <ul class="parameter-main-block">
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Процессор</p>
+                                    <p class="p-r-des-text-2">Intel Xeon W-3245 (16 ядер, 32 потока, 3,2 ГГц, Turbo Boost до 4,4 ГГц)</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Оперативная память</p>
+                                    <p class="p-r-des-text-2">192 ГБ LPDDR4 2666 МГц или 2933 МГц</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Дискретная графика</p>
+                                    <p class="p-r-des-text-2">2 AMD Radeon Pro Vega II c 32 ГБ памяти HBM2 с пропускной способностью 1 ТБ/с</p>
+                                </li>
+                                <li class="parameter-item mar-b-36">
+                                    <p class="p-r-des-text-2">Накопитель SSD</p>
+                                    <p class="p-r-des-text-2">4 ТБ</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2 price-num-text">Цена</p>
+                                    <p class="p-r-des-text-2 price-num-text">1999$</p>
+                                </li>
+                                <li class="parameter-item basked-add-item">
+                                    <button class="add_basked">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-1" class="backed-icon">
+                                            <path d="
+                                        M99.8 28.4c0-1.2-0.9-2-2.1-2h-15c0 3.2 0 7.6 0 8.2 0 1.5-1.2 2.6-2.6 2.9
+                                        -1.5 0.3-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.9 0-4.7 0-8.2H40.1c0 3.2 0
+                                        7.3 0 8.2 0 1.5-1.2 2.9-2.6 2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6
+                                        0-0.6 0-5 0-8.2h-15c-1.2 0-2 0.9-2 2L8.3 124c0 1.2 0.9 2.1 2.1 2.1h96.3c1.2
+                                        0 2.1-0.9 2.1-2.1L99.8 28.4z"></path>
+                                            <path d="M59.1 5.9c-2.9 0-2 0-2.9 0 -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3
+                                        -0.9 1.8-1.5 3.5-1.8 5.6 0 0.9-0.3 1.5-0.3 2.3 0 1.2 0 2.1 0 3.2 0 1.5-1.2 2.9-2.6
+                                        2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-1.2 0-2.3 0-3.5 0-3.2 0.9-6.4 2-9.4
+                                        1.2-2.3 2.6-4.7 4.7-6.4 3.2-2.9 6.7-5 11.1-5.9C53.5 0.3 55 0 56.7 0c1.5 0 2.9 0 4.4
+                                        0 2.9 0 5.6 0.6 7.9 1.8 2.6 1.2 5 2.6 6.7 4.4 3.2 3.2 5.3 6.7 6.4 11.1 0.3 1.5 0.6
+                                        3.2 0.6 4.7 0 1.2 0 2.3 0 3.2 0 1.5-1.2 2.6-2.6 2.9s-2.9-0.9-3.2-2.3c0-0.3 0-0.3
+                                        0-0.6 0-1.2 0-2.6 0-3.8 0-2.3-0.6-4.4-1.8-6.4 -1.5-3.2-4.1-5.9-7.3-7.3
+                                        -1.8-0.9-3.5-1.8-5.9-1.8C61.1 5.9 59.1 5.9 59.1 5.9L59.1 5.9z"></path>
+                                            <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="bGBBgJ" data-hook="items-count">0</text></svg>
+                                        Добавить в корзину</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="presentation-img-content">
+                        <div class="present-img-item"><img src="assets/macBook.png" alt="" class="p-img-item-w" ></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="presentation-area">
+                    <div class="presentation-text-content __background_2">
+                        <div class="__background_opacity"></div>
+                        <div class="p-r-title-block">
+                            <span class="p-r-title-text">iProduct</span>
+                        </div>
+                        <div class="p-r-content-body-text">
+                            <p class="p-r-des-text mar-b-36">Mac Book</p>
+                            <p class="p-r-des-text-2 mar-b-36  mar-b-10">Просто монстр. Знакомьтесь, тот самый — самый впечатляющий Mac. Потрясающая производительность, невероятный потенциал расширения системы и создания пользовательских конфигураций. С Mac Pro для многих профи невозможное станет возможным.</p>
+                            <ul class="parameter-main-block">
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Процессор</p>
+                                    <p class="p-r-des-text-2">Intel Xeon W-3245 (16 ядер, 32 потока, 3,2 ГГц, Turbo Boost до 4,4 ГГц)</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Оперативная память</p>
+                                    <p class="p-r-des-text-2">192 ГБ LPDDR4 2666 МГц или 2933 МГц</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Дискретная графика</p>
+                                    <p class="p-r-des-text-2">2 AMD Radeon Pro Vega II c 32 ГБ памяти HBM2 с пропускной способностью 1 ТБ/с</p>
+                                </li>
+                                <li class="parameter-item mar-b-36">
+                                    <p class="p-r-des-text-2">Накопитель SSD</p>
+                                    <p class="p-r-des-text-2">4 ТБ</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2 price-num-text">Цена</p>
+                                    <p class="p-r-des-text-2 price-num-text">1999$</p>
+                                </li>
+                                <li class="parameter-item basked-add-item">
+                                    <button class="add_basked">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-1" class="backed-icon">
+                                            <path d="
+                                        M99.8 28.4c0-1.2-0.9-2-2.1-2h-15c0 3.2 0 7.6 0 8.2 0 1.5-1.2 2.6-2.6 2.9
+                                        -1.5 0.3-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.9 0-4.7 0-8.2H40.1c0 3.2 0
+                                        7.3 0 8.2 0 1.5-1.2 2.9-2.6 2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6
+                                        0-0.6 0-5 0-8.2h-15c-1.2 0-2 0.9-2 2L8.3 124c0 1.2 0.9 2.1 2.1 2.1h96.3c1.2
+                                        0 2.1-0.9 2.1-2.1L99.8 28.4z"></path>
+                                            <path d="M59.1 5.9c-2.9 0-2 0-2.9 0 -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3
+                                        -0.9 1.8-1.5 3.5-1.8 5.6 0 0.9-0.3 1.5-0.3 2.3 0 1.2 0 2.1 0 3.2 0 1.5-1.2 2.9-2.6
+                                        2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-1.2 0-2.3 0-3.5 0-3.2 0.9-6.4 2-9.4
+                                        1.2-2.3 2.6-4.7 4.7-6.4 3.2-2.9 6.7-5 11.1-5.9C53.5 0.3 55 0 56.7 0c1.5 0 2.9 0 4.4
+                                        0 2.9 0 5.6 0.6 7.9 1.8 2.6 1.2 5 2.6 6.7 4.4 3.2 3.2 5.3 6.7 6.4 11.1 0.3 1.5 0.6
+                                        3.2 0.6 4.7 0 1.2 0 2.3 0 3.2 0 1.5-1.2 2.6-2.6 2.9s-2.9-0.9-3.2-2.3c0-0.3 0-0.3
+                                        0-0.6 0-1.2 0-2.6 0-3.8 0-2.3-0.6-4.4-1.8-6.4 -1.5-3.2-4.1-5.9-7.3-7.3
+                                        -1.8-0.9-3.5-1.8-5.9-1.8C61.1 5.9 59.1 5.9 59.1 5.9L59.1 5.9z"></path>
+                                            <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="bGBBgJ" data-hook="items-count">0</text></svg>
+                                        Добавить в корзину</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="presentation-img-content">
+                        <div class="present-img-item"><img src="assets/macBook.png" alt="" class="p-img-item-w" ></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="presentation-area">
+                    <div class="presentation-text-content __background_2">
+                        <div class="__background_opacity"></div>
+                        <div class="p-r-title-block">
+                            <span class="p-r-title-text">iProduct</span>
+                        </div>
+                        <div class="p-r-content-body-text">
+                            <p class="p-r-des-text mar-b-36">Mac Book</p>
+                            <p class="p-r-des-text-2 mar-b-36  mar-b-10">Просто монстр. Знакомьтесь, тот самый — самый впечатляющий Mac. Потрясающая производительность, невероятный потенциал расширения системы и создания пользовательских конфигураций. С Mac Pro для многих профи невозможное станет возможным.</p>
+                            <ul class="parameter-main-block">
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Процессор</p>
+                                    <p class="p-r-des-text-2">Intel Xeon W-3245 (16 ядер, 32 потока, 3,2 ГГц, Turbo Boost до 4,4 ГГц)</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Оперативная память</p>
+                                    <p class="p-r-des-text-2">192 ГБ LPDDR4 2666 МГц или 2933 МГц</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Дискретная графика</p>
+                                    <p class="p-r-des-text-2">2 AMD Radeon Pro Vega II c 32 ГБ памяти HBM2 с пропускной способностью 1 ТБ/с</p>
+                                </li>
+                                <li class="parameter-item mar-b-36">
+                                    <p class="p-r-des-text-2">Накопитель SSD</p>
+                                    <p class="p-r-des-text-2">4 ТБ</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2 price-num-text">Цена</p>
+                                    <p class="p-r-des-text-2 price-num-text">1999$</p>
+                                </li>
+                                <li class="parameter-item basked-add-item">
+                                    <button class="add_basked">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-1" class="backed-icon">
+                                            <path d="
+                                        M99.8 28.4c0-1.2-0.9-2-2.1-2h-15c0 3.2 0 7.6 0 8.2 0 1.5-1.2 2.6-2.6 2.9
+                                        -1.5 0.3-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.9 0-4.7 0-8.2H40.1c0 3.2 0
+                                        7.3 0 8.2 0 1.5-1.2 2.9-2.6 2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6
+                                        0-0.6 0-5 0-8.2h-15c-1.2 0-2 0.9-2 2L8.3 124c0 1.2 0.9 2.1 2.1 2.1h96.3c1.2
+                                        0 2.1-0.9 2.1-2.1L99.8 28.4z"></path>
+                                            <path d="M59.1 5.9c-2.9 0-2 0-2.9 0 -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3
+                                        -0.9 1.8-1.5 3.5-1.8 5.6 0 0.9-0.3 1.5-0.3 2.3 0 1.2 0 2.1 0 3.2 0 1.5-1.2 2.9-2.6
+                                        2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-1.2 0-2.3 0-3.5 0-3.2 0.9-6.4 2-9.4
+                                        1.2-2.3 2.6-4.7 4.7-6.4 3.2-2.9 6.7-5 11.1-5.9C53.5 0.3 55 0 56.7 0c1.5 0 2.9 0 4.4
+                                        0 2.9 0 5.6 0.6 7.9 1.8 2.6 1.2 5 2.6 6.7 4.4 3.2 3.2 5.3 6.7 6.4 11.1 0.3 1.5 0.6
+                                        3.2 0.6 4.7 0 1.2 0 2.3 0 3.2 0 1.5-1.2 2.6-2.6 2.9s-2.9-0.9-3.2-2.3c0-0.3 0-0.3
+                                        0-0.6 0-1.2 0-2.6 0-3.8 0-2.3-0.6-4.4-1.8-6.4 -1.5-3.2-4.1-5.9-7.3-7.3
+                                        -1.8-0.9-3.5-1.8-5.9-1.8C61.1 5.9 59.1 5.9 59.1 5.9L59.1 5.9z"></path>
+                                            <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="bGBBgJ" data-hook="items-count">0</text></svg>
+                                        Добавить в корзину</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="presentation-img-content">
+                        <div class="present-img-item"><img src="assets/macBook.png" alt="" class="p-img-item-w" ></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="presentation-area">
+                    <div class="presentation-text-content __background_2">
+                        <div class="__background_opacity"></div>
+                        <div class="p-r-title-block">
+                            <span class="p-r-title-text">iProduct</span>
+                        </div>
+                        <div class="p-r-content-body-text">
+                            <p class="p-r-des-text mar-b-36">Mac Book</p>
+                            <p class="p-r-des-text-2 mar-b-36  mar-b-10">Просто монстр. Знакомьтесь, тот самый — самый впечатляющий Mac. Потрясающая производительность, невероятный потенциал расширения системы и создания пользовательских конфигураций. С Mac Pro для многих профи невозможное станет возможным.</p>
+                            <ul class="parameter-main-block">
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Процессор</p>
+                                    <p class="p-r-des-text-2">Intel Xeon W-3245 (16 ядер, 32 потока, 3,2 ГГц, Turbo Boost до 4,4 ГГц)</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Оперативная память</p>
+                                    <p class="p-r-des-text-2">192 ГБ LPDDR4 2666 МГц или 2933 МГц</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Дискретная графика</p>
+                                    <p class="p-r-des-text-2">2 AMD Radeon Pro Vega II c 32 ГБ памяти HBM2 с пропускной способностью 1 ТБ/с</p>
+                                </li>
+                                <li class="parameter-item mar-b-36">
+                                    <p class="p-r-des-text-2">Накопитель SSD</p>
+                                    <p class="p-r-des-text-2">4 ТБ</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2 price-num-text">Цена</p>
+                                    <p class="p-r-des-text-2 price-num-text">1999$</p>
+                                </li>
+                                <li class="parameter-item basked-add-item">
+                                    <button class="add_basked">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-1" class="backed-icon">
+                                            <path d="
+                                        M99.8 28.4c0-1.2-0.9-2-2.1-2h-15c0 3.2 0 7.6 0 8.2 0 1.5-1.2 2.6-2.6 2.9
+                                        -1.5 0.3-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.9 0-4.7 0-8.2H40.1c0 3.2 0
+                                        7.3 0 8.2 0 1.5-1.2 2.9-2.6 2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6
+                                        0-0.6 0-5 0-8.2h-15c-1.2 0-2 0.9-2 2L8.3 124c0 1.2 0.9 2.1 2.1 2.1h96.3c1.2
+                                        0 2.1-0.9 2.1-2.1L99.8 28.4z"></path>
+                                            <path d="M59.1 5.9c-2.9 0-2 0-2.9 0 -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3
+                                        -0.9 1.8-1.5 3.5-1.8 5.6 0 0.9-0.3 1.5-0.3 2.3 0 1.2 0 2.1 0 3.2 0 1.5-1.2 2.9-2.6
+                                        2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-1.2 0-2.3 0-3.5 0-3.2 0.9-6.4 2-9.4
+                                        1.2-2.3 2.6-4.7 4.7-6.4 3.2-2.9 6.7-5 11.1-5.9C53.5 0.3 55 0 56.7 0c1.5 0 2.9 0 4.4
+                                        0 2.9 0 5.6 0.6 7.9 1.8 2.6 1.2 5 2.6 6.7 4.4 3.2 3.2 5.3 6.7 6.4 11.1 0.3 1.5 0.6
+                                        3.2 0.6 4.7 0 1.2 0 2.3 0 3.2 0 1.5-1.2 2.6-2.6 2.9s-2.9-0.9-3.2-2.3c0-0.3 0-0.3
+                                        0-0.6 0-1.2 0-2.6 0-3.8 0-2.3-0.6-4.4-1.8-6.4 -1.5-3.2-4.1-5.9-7.3-7.3
+                                        -1.8-0.9-3.5-1.8-5.9-1.8C61.1 5.9 59.1 5.9 59.1 5.9L59.1 5.9z"></path>
+                                            <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="bGBBgJ" data-hook="items-count">0</text></svg>
+                                        Добавить в корзину</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="presentation-img-content">
+                        <div class="present-img-item"><img src="assets/macBook.png" alt="" class="p-img-item-w" ></div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="s-h-block-content ">
-            <div class="s-h-content-body s-h-pos">
-                <img src="assets/icon%205.png" alt="" class="mar-b-36">
-                <span class="p-r-title-text mar-b-36">ГЛУБОКО ВДОХНИТЕ </span>
-                <span class="s-h-text s-h-w-80">Устраивайте паузы осознанности</span>
+        <div class="nav_swiper">
+            <div class="btn-prev">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="nav_0icon0">
+                    <path d="
+                    M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8
+                    0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/>
+                </svg>
             </div>
-            <img src="assets/mamolog.jpg" alt="" class="s-h-img ">
+            <div id="dots-container_1" class="s-dot-block"></div>
+            <div class="btn-next">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="nav_0icon0">
+                    <path d="
+                    M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8
+                     0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div class="swiper_2">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="presentation-area">
+                    <div class="presentation-text-content __background_2">
+                        <div class="__background_opacity"></div>
+                        <div class="p-r-title-block">
+                            <span class="p-r-title-text">iProduct</span>
+                        </div>
+                        <div class="p-r-content-body-text">
+                            <p class="p-r-des-text mar-b-36">iPad</p>
+                            <p class="p-r-des-text-2 mar-b-36  mar-b-10">Просто монстр. Знакомьтесь, тот самый — самый впечатляющий Mac. Потрясающая производительность, невероятный потенциал расширения системы и создания пользовательских конфигураций. С Mac Pro для многих профи невозможное станет возможным.</p>
+                            <ul class="parameter-main-block">
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Процессор</p>
+                                    <p class="p-r-des-text-2">Intel Xeon W-3245 (16 ядер, 32 потока, 3,2 ГГц, Turbo Boost до 4,4 ГГц)</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Оперативная память</p>
+                                    <p class="p-r-des-text-2">192 ГБ LPDDR4 2666 МГц или 2933 МГц</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Дискретная графика</p>
+                                    <p class="p-r-des-text-2">2 AMD Radeon Pro Vega II c 32 ГБ памяти HBM2 с пропускной способностью 1 ТБ/с</p>
+                                </li>
+                                <li class="parameter-item mar-b-36">
+                                    <p class="p-r-des-text-2">Накопитель SSD</p>
+                                    <p class="p-r-des-text-2">4 ТБ</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2 price-num-text">Цена</p>
+                                    <p class="p-r-des-text-2 price-num-text">1999$</p>
+                                </li>
+                                <li class="parameter-item basked-add-item">
+                                    <button class="add_basked">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-1" class="backed-icon">
+                                            <path d="
+                                        M99.8 28.4c0-1.2-0.9-2-2.1-2h-15c0 3.2 0 7.6 0 8.2 0 1.5-1.2 2.6-2.6 2.9
+                                        -1.5 0.3-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.9 0-4.7 0-8.2H40.1c0 3.2 0
+                                        7.3 0 8.2 0 1.5-1.2 2.9-2.6 2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6
+                                        0-0.6 0-5 0-8.2h-15c-1.2 0-2 0.9-2 2L8.3 124c0 1.2 0.9 2.1 2.1 2.1h96.3c1.2
+                                        0 2.1-0.9 2.1-2.1L99.8 28.4z"></path>
+                                            <path d="M59.1 5.9c-2.9 0-2 0-2.9 0 -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3
+                                        -0.9 1.8-1.5 3.5-1.8 5.6 0 0.9-0.3 1.5-0.3 2.3 0 1.2 0 2.1 0 3.2 0 1.5-1.2 2.9-2.6
+                                        2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-1.2 0-2.3 0-3.5 0-3.2 0.9-6.4 2-9.4
+                                        1.2-2.3 2.6-4.7 4.7-6.4 3.2-2.9 6.7-5 11.1-5.9C53.5 0.3 55 0 56.7 0c1.5 0 2.9 0 4.4
+                                        0 2.9 0 5.6 0.6 7.9 1.8 2.6 1.2 5 2.6 6.7 4.4 3.2 3.2 5.3 6.7 6.4 11.1 0.3 1.5 0.6
+                                        3.2 0.6 4.7 0 1.2 0 2.3 0 3.2 0 1.5-1.2 2.6-2.6 2.9s-2.9-0.9-3.2-2.3c0-0.3 0-0.3
+                                        0-0.6 0-1.2 0-2.6 0-3.8 0-2.3-0.6-4.4-1.8-6.4 -1.5-3.2-4.1-5.9-7.3-7.3
+                                        -1.8-0.9-3.5-1.8-5.9-1.8C61.1 5.9 59.1 5.9 59.1 5.9L59.1 5.9z"></path>
+                                            <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="bGBBgJ" data-hook="items-count">0</text></svg>
+                                        Добавить в корзину</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="presentation-img-content">
+                        <div class="present-img-item"><img src="assets/iPad.png" alt="" class="p-img-item-w" ></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="presentation-area">
+                    <div class="presentation-text-content __background_2">
+                        <div class="__background_opacity"></div>
+                        <div class="p-r-title-block">
+                            <span class="p-r-title-text">iProduct</span>
+                        </div>
+                        <div class="p-r-content-body-text">
+                            <p class="p-r-des-text mar-b-36">iPad</p>
+                            <p class="p-r-des-text-2 mar-b-36  mar-b-10">Просто монстр. Знакомьтесь, тот самый — самый впечатляющий Mac. Потрясающая производительность, невероятный потенциал расширения системы и создания пользовательских конфигураций. С Mac Pro для многих профи невозможное станет возможным.</p>
+                            <ul class="parameter-main-block">
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Процессор</p>
+                                    <p class="p-r-des-text-2">Intel Xeon W-3245 (16 ядер, 32 потока, 3,2 ГГц, Turbo Boost до 4,4 ГГц)</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Оперативная память</p>
+                                    <p class="p-r-des-text-2">192 ГБ LPDDR4 2666 МГц или 2933 МГц</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Дискретная графика</p>
+                                    <p class="p-r-des-text-2">2 AMD Radeon Pro Vega II c 32 ГБ памяти HBM2 с пропускной способностью 1 ТБ/с</p>
+                                </li>
+                                <li class="parameter-item mar-b-36">
+                                    <p class="p-r-des-text-2">Накопитель SSD</p>
+                                    <p class="p-r-des-text-2">4 ТБ</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2 price-num-text">Цена</p>
+                                    <p class="p-r-des-text-2 price-num-text">1999$</p>
+                                </li>
+                                <li class="parameter-item basked-add-item">
+                                    <button class="add_basked">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-1" class="backed-icon">
+                                            <path d="
+                                        M99.8 28.4c0-1.2-0.9-2-2.1-2h-15c0 3.2 0 7.6 0 8.2 0 1.5-1.2 2.6-2.6 2.9
+                                        -1.5 0.3-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.9 0-4.7 0-8.2H40.1c0 3.2 0
+                                        7.3 0 8.2 0 1.5-1.2 2.9-2.6 2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6
+                                        0-0.6 0-5 0-8.2h-15c-1.2 0-2 0.9-2 2L8.3 124c0 1.2 0.9 2.1 2.1 2.1h96.3c1.2
+                                        0 2.1-0.9 2.1-2.1L99.8 28.4z"></path>
+                                            <path d="M59.1 5.9c-2.9 0-2 0-2.9 0 -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3
+                                        -0.9 1.8-1.5 3.5-1.8 5.6 0 0.9-0.3 1.5-0.3 2.3 0 1.2 0 2.1 0 3.2 0 1.5-1.2 2.9-2.6
+                                        2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-1.2 0-2.3 0-3.5 0-3.2 0.9-6.4 2-9.4
+                                        1.2-2.3 2.6-4.7 4.7-6.4 3.2-2.9 6.7-5 11.1-5.9C53.5 0.3 55 0 56.7 0c1.5 0 2.9 0 4.4
+                                        0 2.9 0 5.6 0.6 7.9 1.8 2.6 1.2 5 2.6 6.7 4.4 3.2 3.2 5.3 6.7 6.4 11.1 0.3 1.5 0.6
+                                        3.2 0.6 4.7 0 1.2 0 2.3 0 3.2 0 1.5-1.2 2.6-2.6 2.9s-2.9-0.9-3.2-2.3c0-0.3 0-0.3
+                                        0-0.6 0-1.2 0-2.6 0-3.8 0-2.3-0.6-4.4-1.8-6.4 -1.5-3.2-4.1-5.9-7.3-7.3
+                                        -1.8-0.9-3.5-1.8-5.9-1.8C61.1 5.9 59.1 5.9 59.1 5.9L59.1 5.9z"></path>
+                                            <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="bGBBgJ" data-hook="items-count">0</text></svg>
+                                        Добавить в корзину</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="presentation-img-content">
+                        <div class="present-img-item"><img src="assets/iPad.png" alt="" class="p-img-item-w" ></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="presentation-area">
+                    <div class="presentation-text-content __background_2">
+                        <div class="__background_opacity"></div>
+                        <div class="p-r-title-block">
+                            <span class="p-r-title-text">iProduct</span>
+                        </div>
+                        <div class="p-r-content-body-text">
+                            <p class="p-r-des-text mar-b-36">iPad</p>
+                            <p class="p-r-des-text-2 mar-b-36  mar-b-10">Просто монстр. Знакомьтесь, тот самый — самый впечатляющий Mac. Потрясающая производительность, невероятный потенциал расширения системы и создания пользовательских конфигураций. С Mac Pro для многих профи невозможное станет возможным.</p>
+                            <ul class="parameter-main-block">
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Процессор</p>
+                                    <p class="p-r-des-text-2">Intel Xeon W-3245 (16 ядер, 32 потока, 3,2 ГГц, Turbo Boost до 4,4 ГГц)</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Оперативная память</p>
+                                    <p class="p-r-des-text-2">192 ГБ LPDDR4 2666 МГц или 2933 МГц</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Дискретная графика</p>
+                                    <p class="p-r-des-text-2">2 AMD Radeon Pro Vega II c 32 ГБ памяти HBM2 с пропускной способностью 1 ТБ/с</p>
+                                </li>
+                                <li class="parameter-item mar-b-36">
+                                    <p class="p-r-des-text-2">Накопитель SSD</p>
+                                    <p class="p-r-des-text-2">4 ТБ</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2 price-num-text">Цена</p>
+                                    <p class="p-r-des-text-2 price-num-text">1999$</p>
+                                </li>
+                                <li class="parameter-item basked-add-item">
+                                    <button class="add_basked">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-1" class="backed-icon">
+                                            <path d="
+                                        M99.8 28.4c0-1.2-0.9-2-2.1-2h-15c0 3.2 0 7.6 0 8.2 0 1.5-1.2 2.6-2.6 2.9
+                                        -1.5 0.3-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.9 0-4.7 0-8.2H40.1c0 3.2 0
+                                        7.3 0 8.2 0 1.5-1.2 2.9-2.6 2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6
+                                        0-0.6 0-5 0-8.2h-15c-1.2 0-2 0.9-2 2L8.3 124c0 1.2 0.9 2.1 2.1 2.1h96.3c1.2
+                                        0 2.1-0.9 2.1-2.1L99.8 28.4z"></path>
+                                            <path d="M59.1 5.9c-2.9 0-2 0-2.9 0 -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3
+                                        -0.9 1.8-1.5 3.5-1.8 5.6 0 0.9-0.3 1.5-0.3 2.3 0 1.2 0 2.1 0 3.2 0 1.5-1.2 2.9-2.6
+                                        2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-1.2 0-2.3 0-3.5 0-3.2 0.9-6.4 2-9.4
+                                        1.2-2.3 2.6-4.7 4.7-6.4 3.2-2.9 6.7-5 11.1-5.9C53.5 0.3 55 0 56.7 0c1.5 0 2.9 0 4.4
+                                        0 2.9 0 5.6 0.6 7.9 1.8 2.6 1.2 5 2.6 6.7 4.4 3.2 3.2 5.3 6.7 6.4 11.1 0.3 1.5 0.6
+                                        3.2 0.6 4.7 0 1.2 0 2.3 0 3.2 0 1.5-1.2 2.6-2.6 2.9s-2.9-0.9-3.2-2.3c0-0.3 0-0.3
+                                        0-0.6 0-1.2 0-2.6 0-3.8 0-2.3-0.6-4.4-1.8-6.4 -1.5-3.2-4.1-5.9-7.3-7.3
+                                        -1.8-0.9-3.5-1.8-5.9-1.8C61.1 5.9 59.1 5.9 59.1 5.9L59.1 5.9z"></path>
+                                            <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="bGBBgJ" data-hook="items-count">0</text></svg>
+                                        Добавить в корзину</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="presentation-img-content">
+                        <div class="present-img-item"><img src="assets/iPad.png" alt="" class="p-img-item-w" ></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="presentation-area">
+                    <div class="presentation-text-content __background_2">
+                        <div class="__background_opacity"></div>
+                        <div class="p-r-title-block">
+                            <span class="p-r-title-text">iProduct</span>
+                        </div>
+                        <div class="p-r-content-body-text">
+                            <p class="p-r-des-text mar-b-36">iPad</p>
+                            <p class="p-r-des-text-2 mar-b-36  mar-b-10">Просто монстр. Знакомьтесь, тот самый — самый впечатляющий Mac. Потрясающая производительность, невероятный потенциал расширения системы и создания пользовательских конфигураций. С Mac Pro для многих профи невозможное станет возможным.</p>
+                            <ul class="parameter-main-block">
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Процессор</p>
+                                    <p class="p-r-des-text-2">Intel Xeon W-3245 (16 ядер, 32 потока, 3,2 ГГц, Turbo Boost до 4,4 ГГц)</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Оперативная память</p>
+                                    <p class="p-r-des-text-2">192 ГБ LPDDR4 2666 МГц или 2933 МГц</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Дискретная графика</p>
+                                    <p class="p-r-des-text-2">2 AMD Radeon Pro Vega II c 32 ГБ памяти HBM2 с пропускной способностью 1 ТБ/с</p>
+                                </li>
+                                <li class="parameter-item mar-b-36">
+                                    <p class="p-r-des-text-2">Накопитель SSD</p>
+                                    <p class="p-r-des-text-2">4 ТБ</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2 price-num-text">Цена</p>
+                                    <p class="p-r-des-text-2 price-num-text">1999$</p>
+                                </li>
+                                <li class="parameter-item basked-add-item">
+                                    <button class="add_basked">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-1" class="backed-icon">
+                                            <path d="
+                                        M99.8 28.4c0-1.2-0.9-2-2.1-2h-15c0 3.2 0 7.6 0 8.2 0 1.5-1.2 2.6-2.6 2.9
+                                        -1.5 0.3-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.9 0-4.7 0-8.2H40.1c0 3.2 0
+                                        7.3 0 8.2 0 1.5-1.2 2.9-2.6 2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6
+                                        0-0.6 0-5 0-8.2h-15c-1.2 0-2 0.9-2 2L8.3 124c0 1.2 0.9 2.1 2.1 2.1h96.3c1.2
+                                        0 2.1-0.9 2.1-2.1L99.8 28.4z"></path>
+                                            <path d="M59.1 5.9c-2.9 0-2 0-2.9 0 -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3
+                                        -0.9 1.8-1.5 3.5-1.8 5.6 0 0.9-0.3 1.5-0.3 2.3 0 1.2 0 2.1 0 3.2 0 1.5-1.2 2.9-2.6
+                                        2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-1.2 0-2.3 0-3.5 0-3.2 0.9-6.4 2-9.4
+                                        1.2-2.3 2.6-4.7 4.7-6.4 3.2-2.9 6.7-5 11.1-5.9C53.5 0.3 55 0 56.7 0c1.5 0 2.9 0 4.4
+                                        0 2.9 0 5.6 0.6 7.9 1.8 2.6 1.2 5 2.6 6.7 4.4 3.2 3.2 5.3 6.7 6.4 11.1 0.3 1.5 0.6
+                                        3.2 0.6 4.7 0 1.2 0 2.3 0 3.2 0 1.5-1.2 2.6-2.6 2.9s-2.9-0.9-3.2-2.3c0-0.3 0-0.3
+                                        0-0.6 0-1.2 0-2.6 0-3.8 0-2.3-0.6-4.4-1.8-6.4 -1.5-3.2-4.1-5.9-7.3-7.3
+                                        -1.8-0.9-3.5-1.8-5.9-1.8C61.1 5.9 59.1 5.9 59.1 5.9L59.1 5.9z"></path>
+                                            <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="bGBBgJ" data-hook="items-count">0</text></svg>
+                                        Добавить в корзину</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="presentation-img-content">
+                        <div class="present-img-item"><img src="assets/iPad.png" alt="" class="p-img-item-w" ></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="presentation-area">
+                    <div class="presentation-text-content __background_2">
+                        <div class="__background_opacity"></div>
+                        <div class="p-r-title-block">
+                            <span class="p-r-title-text">iProduct</span>
+                        </div>
+                        <div class="p-r-content-body-text">
+                            <p class="p-r-des-text mar-b-36">iPad</p>
+                            <p class="p-r-des-text-2 mar-b-36  mar-b-10">Просто монстр. Знакомьтесь, тот самый — самый впечатляющий Mac. Потрясающая производительность, невероятный потенциал расширения системы и создания пользовательских конфигураций. С Mac Pro для многих профи невозможное станет возможным.</p>
+                            <ul class="parameter-main-block">
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Процессор</p>
+                                    <p class="p-r-des-text-2">Intel Xeon W-3245 (16 ядер, 32 потока, 3,2 ГГц, Turbo Boost до 4,4 ГГц)</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Оперативная память</p>
+                                    <p class="p-r-des-text-2">192 ГБ LPDDR4 2666 МГц или 2933 МГц</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Дискретная графика</p>
+                                    <p class="p-r-des-text-2">2 AMD Radeon Pro Vega II c 32 ГБ памяти HBM2 с пропускной способностью 1 ТБ/с</p>
+                                </li>
+                                <li class="parameter-item mar-b-36">
+                                    <p class="p-r-des-text-2">Накопитель SSD</p>
+                                    <p class="p-r-des-text-2">4 ТБ</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2 price-num-text">Цена</p>
+                                    <p class="p-r-des-text-2 price-num-text">1999$</p>
+                                </li>
+                                <li class="parameter-item basked-add-item">
+                                    <button class="add_basked">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-1" class="backed-icon">
+                                            <path d="
+                                        M99.8 28.4c0-1.2-0.9-2-2.1-2h-15c0 3.2 0 7.6 0 8.2 0 1.5-1.2 2.6-2.6 2.9
+                                        -1.5 0.3-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.9 0-4.7 0-8.2H40.1c0 3.2 0
+                                        7.3 0 8.2 0 1.5-1.2 2.9-2.6 2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6
+                                        0-0.6 0-5 0-8.2h-15c-1.2 0-2 0.9-2 2L8.3 124c0 1.2 0.9 2.1 2.1 2.1h96.3c1.2
+                                        0 2.1-0.9 2.1-2.1L99.8 28.4z"></path>
+                                            <path d="M59.1 5.9c-2.9 0-2 0-2.9 0 -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3
+                                        -0.9 1.8-1.5 3.5-1.8 5.6 0 0.9-0.3 1.5-0.3 2.3 0 1.2 0 2.1 0 3.2 0 1.5-1.2 2.9-2.6
+                                        2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-1.2 0-2.3 0-3.5 0-3.2 0.9-6.4 2-9.4
+                                        1.2-2.3 2.6-4.7 4.7-6.4 3.2-2.9 6.7-5 11.1-5.9C53.5 0.3 55 0 56.7 0c1.5 0 2.9 0 4.4
+                                        0 2.9 0 5.6 0.6 7.9 1.8 2.6 1.2 5 2.6 6.7 4.4 3.2 3.2 5.3 6.7 6.4 11.1 0.3 1.5 0.6
+                                        3.2 0.6 4.7 0 1.2 0 2.3 0 3.2 0 1.5-1.2 2.6-2.6 2.9s-2.9-0.9-3.2-2.3c0-0.3 0-0.3
+                                        0-0.6 0-1.2 0-2.6 0-3.8 0-2.3-0.6-4.4-1.8-6.4 -1.5-3.2-4.1-5.9-7.3-7.3
+                                        -1.8-0.9-3.5-1.8-5.9-1.8C61.1 5.9 59.1 5.9 59.1 5.9L59.1 5.9z"></path>
+                                            <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="bGBBgJ" data-hook="items-count">0</text></svg>
+                                        Добавить в корзину</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="presentation-img-content">
+                        <div class="present-img-item"><img src="assets/iPad.png" alt="" class="p-img-item-w" ></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav_swiper">
+            <div class="btn-prev">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="nav_0icon0">
+                    <path d="
+                    M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8
+                    0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/>
+                </svg>
+            </div>
+            <div id="dots-container_2" class="s-dot-block"></div>
+            <div class="btn-next">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="nav_0icon0">
+                    <path d="
+                    M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8
+                     0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div class="swiper_3">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="presentation-area">
+                    <div class="presentation-text-content __background_2">
+                        <div class="__background_opacity"></div>
+                        <div class="p-r-title-block">
+                            <span class="p-r-title-text">iProduct</span>
+                        </div>
+                        <div class="p-r-content-body-text">
+                            <p class="p-r-des-text mar-b-36">iPhone</p>
+                            <p class="p-r-des-text-2 mar-b-36  mar-b-10">Просто монстр. Знакомьтесь, тот самый — самый впечатляющий Mac. Потрясающая производительность, невероятный потенциал расширения системы и создания пользовательских конфигураций. С Mac Pro для многих профи невозможное станет возможным.</p>
+                            <ul class="parameter-main-block">
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Процессор</p>
+                                    <p class="p-r-des-text-2">Intel Xeon W-3245 (16 ядер, 32 потока, 3,2 ГГц, Turbo Boost до 4,4 ГГц)</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Оперативная память</p>
+                                    <p class="p-r-des-text-2">192 ГБ LPDDR4 2666 МГц или 2933 МГц</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Дискретная графика</p>
+                                    <p class="p-r-des-text-2">2 AMD Radeon Pro Vega II c 32 ГБ памяти HBM2 с пропускной способностью 1 ТБ/с</p>
+                                </li>
+                                <li class="parameter-item mar-b-36">
+                                    <p class="p-r-des-text-2">Накопитель SSD</p>
+                                    <p class="p-r-des-text-2">4 ТБ</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2 price-num-text">Цена</p>
+                                    <p class="p-r-des-text-2 price-num-text">1999$</p>
+                                </li>
+                                <li class="parameter-item basked-add-item">
+                                    <button class="add_basked">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-1" class="backed-icon">
+                                            <path d="
+                                        M99.8 28.4c0-1.2-0.9-2-2.1-2h-15c0 3.2 0 7.6 0 8.2 0 1.5-1.2 2.6-2.6 2.9
+                                        -1.5 0.3-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.9 0-4.7 0-8.2H40.1c0 3.2 0
+                                        7.3 0 8.2 0 1.5-1.2 2.9-2.6 2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6
+                                        0-0.6 0-5 0-8.2h-15c-1.2 0-2 0.9-2 2L8.3 124c0 1.2 0.9 2.1 2.1 2.1h96.3c1.2
+                                        0 2.1-0.9 2.1-2.1L99.8 28.4z"></path>
+                                            <path d="M59.1 5.9c-2.9 0-2 0-2.9 0 -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3
+                                        -0.9 1.8-1.5 3.5-1.8 5.6 0 0.9-0.3 1.5-0.3 2.3 0 1.2 0 2.1 0 3.2 0 1.5-1.2 2.9-2.6
+                                        2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-1.2 0-2.3 0-3.5 0-3.2 0.9-6.4 2-9.4
+                                        1.2-2.3 2.6-4.7 4.7-6.4 3.2-2.9 6.7-5 11.1-5.9C53.5 0.3 55 0 56.7 0c1.5 0 2.9 0 4.4
+                                        0 2.9 0 5.6 0.6 7.9 1.8 2.6 1.2 5 2.6 6.7 4.4 3.2 3.2 5.3 6.7 6.4 11.1 0.3 1.5 0.6
+                                        3.2 0.6 4.7 0 1.2 0 2.3 0 3.2 0 1.5-1.2 2.6-2.6 2.9s-2.9-0.9-3.2-2.3c0-0.3 0-0.3
+                                        0-0.6 0-1.2 0-2.6 0-3.8 0-2.3-0.6-4.4-1.8-6.4 -1.5-3.2-4.1-5.9-7.3-7.3
+                                        -1.8-0.9-3.5-1.8-5.9-1.8C61.1 5.9 59.1 5.9 59.1 5.9L59.1 5.9z"></path>
+                                            <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="bGBBgJ" data-hook="items-count">0</text></svg>
+                                        Добавить в корзину</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="presentation-img-content">
+                        <div class="present-img-item"><img src="assets/iPhone.png" alt="" class="p-img-item-w i-phone-img"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="presentation-area">
+                    <div class="presentation-text-content __background_2">
+                        <div class="__background_opacity"></div>
+                        <div class="p-r-title-block">
+                            <span class="p-r-title-text">iProduct</span>
+                        </div>
+                        <div class="p-r-content-body-text">
+                            <p class="p-r-des-text mar-b-36">iPhone</p>
+                            <p class="p-r-des-text-2 mar-b-36  mar-b-10">Просто монстр. Знакомьтесь, тот самый — самый впечатляющий Mac. Потрясающая производительность, невероятный потенциал расширения системы и создания пользовательских конфигураций. С Mac Pro для многих профи невозможное станет возможным.</p>
+                            <ul class="parameter-main-block">
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Процессор</p>
+                                    <p class="p-r-des-text-2">Intel Xeon W-3245 (16 ядер, 32 потока, 3,2 ГГц, Turbo Boost до 4,4 ГГц)</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Оперативная память</p>
+                                    <p class="p-r-des-text-2">192 ГБ LPDDR4 2666 МГц или 2933 МГц</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Дискретная графика</p>
+                                    <p class="p-r-des-text-2">2 AMD Radeon Pro Vega II c 32 ГБ памяти HBM2 с пропускной способностью 1 ТБ/с</p>
+                                </li>
+                                <li class="parameter-item mar-b-36">
+                                    <p class="p-r-des-text-2">Накопитель SSD</p>
+                                    <p class="p-r-des-text-2">4 ТБ</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2 price-num-text">Цена</p>
+                                    <p class="p-r-des-text-2 price-num-text">1999$</p>
+                                </li>
+                                <li class="parameter-item basked-add-item">
+                                    <button class="add_basked">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-1" class="backed-icon">
+                                            <path d="
+                                        M99.8 28.4c0-1.2-0.9-2-2.1-2h-15c0 3.2 0 7.6 0 8.2 0 1.5-1.2 2.6-2.6 2.9
+                                        -1.5 0.3-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.9 0-4.7 0-8.2H40.1c0 3.2 0
+                                        7.3 0 8.2 0 1.5-1.2 2.9-2.6 2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6
+                                        0-0.6 0-5 0-8.2h-15c-1.2 0-2 0.9-2 2L8.3 124c0 1.2 0.9 2.1 2.1 2.1h96.3c1.2
+                                        0 2.1-0.9 2.1-2.1L99.8 28.4z"></path>
+                                            <path d="M59.1 5.9c-2.9 0-2 0-2.9 0 -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3
+                                        -0.9 1.8-1.5 3.5-1.8 5.6 0 0.9-0.3 1.5-0.3 2.3 0 1.2 0 2.1 0 3.2 0 1.5-1.2 2.9-2.6
+                                        2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-1.2 0-2.3 0-3.5 0-3.2 0.9-6.4 2-9.4
+                                        1.2-2.3 2.6-4.7 4.7-6.4 3.2-2.9 6.7-5 11.1-5.9C53.5 0.3 55 0 56.7 0c1.5 0 2.9 0 4.4
+                                        0 2.9 0 5.6 0.6 7.9 1.8 2.6 1.2 5 2.6 6.7 4.4 3.2 3.2 5.3 6.7 6.4 11.1 0.3 1.5 0.6
+                                        3.2 0.6 4.7 0 1.2 0 2.3 0 3.2 0 1.5-1.2 2.6-2.6 2.9s-2.9-0.9-3.2-2.3c0-0.3 0-0.3
+                                        0-0.6 0-1.2 0-2.6 0-3.8 0-2.3-0.6-4.4-1.8-6.4 -1.5-3.2-4.1-5.9-7.3-7.3
+                                        -1.8-0.9-3.5-1.8-5.9-1.8C61.1 5.9 59.1 5.9 59.1 5.9L59.1 5.9z"></path>
+                                            <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="bGBBgJ" data-hook="items-count">0</text></svg>
+                                        Добавить в корзину</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="presentation-img-content">
+                        <div class="present-img-item"><img src="assets/iPhone.png" alt="" class="p-img-item-w i-phone-img"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="presentation-area">
+                    <div class="presentation-text-content __background_2">
+                        <div class="__background_opacity"></div>
+                        <div class="p-r-title-block">
+                            <span class="p-r-title-text">iProduct</span>
+                        </div>
+                        <div class="p-r-content-body-text">
+                            <p class="p-r-des-text mar-b-36">iPhone</p>
+                            <p class="p-r-des-text-2 mar-b-36  mar-b-10">Просто монстр. Знакомьтесь, тот самый — самый впечатляющий Mac. Потрясающая производительность, невероятный потенциал расширения системы и создания пользовательских конфигураций. С Mac Pro для многих профи невозможное станет возможным.</p>
+                            <ul class="parameter-main-block">
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Процессор</p>
+                                    <p class="p-r-des-text-2">Intel Xeon W-3245 (16 ядер, 32 потока, 3,2 ГГц, Turbo Boost до 4,4 ГГц)</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Оперативная память</p>
+                                    <p class="p-r-des-text-2">192 ГБ LPDDR4 2666 МГц или 2933 МГц</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Дискретная графика</p>
+                                    <p class="p-r-des-text-2">2 AMD Radeon Pro Vega II c 32 ГБ памяти HBM2 с пропускной способностью 1 ТБ/с</p>
+                                </li>
+                                <li class="parameter-item mar-b-36">
+                                    <p class="p-r-des-text-2">Накопитель SSD</p>
+                                    <p class="p-r-des-text-2">4 ТБ</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2 price-num-text">Цена</p>
+                                    <p class="p-r-des-text-2 price-num-text">1999$</p>
+                                </li>
+                                <li class="parameter-item basked-add-item">
+                                    <button class="add_basked">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-1" class="backed-icon">
+                                            <path d="
+                                        M99.8 28.4c0-1.2-0.9-2-2.1-2h-15c0 3.2 0 7.6 0 8.2 0 1.5-1.2 2.6-2.6 2.9
+                                        -1.5 0.3-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.9 0-4.7 0-8.2H40.1c0 3.2 0
+                                        7.3 0 8.2 0 1.5-1.2 2.9-2.6 2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6
+                                        0-0.6 0-5 0-8.2h-15c-1.2 0-2 0.9-2 2L8.3 124c0 1.2 0.9 2.1 2.1 2.1h96.3c1.2
+                                        0 2.1-0.9 2.1-2.1L99.8 28.4z"></path>
+                                            <path d="M59.1 5.9c-2.9 0-2 0-2.9 0 -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3
+                                        -0.9 1.8-1.5 3.5-1.8 5.6 0 0.9-0.3 1.5-0.3 2.3 0 1.2 0 2.1 0 3.2 0 1.5-1.2 2.9-2.6
+                                        2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-1.2 0-2.3 0-3.5 0-3.2 0.9-6.4 2-9.4
+                                        1.2-2.3 2.6-4.7 4.7-6.4 3.2-2.9 6.7-5 11.1-5.9C53.5 0.3 55 0 56.7 0c1.5 0 2.9 0 4.4
+                                        0 2.9 0 5.6 0.6 7.9 1.8 2.6 1.2 5 2.6 6.7 4.4 3.2 3.2 5.3 6.7 6.4 11.1 0.3 1.5 0.6
+                                        3.2 0.6 4.7 0 1.2 0 2.3 0 3.2 0 1.5-1.2 2.6-2.6 2.9s-2.9-0.9-3.2-2.3c0-0.3 0-0.3
+                                        0-0.6 0-1.2 0-2.6 0-3.8 0-2.3-0.6-4.4-1.8-6.4 -1.5-3.2-4.1-5.9-7.3-7.3
+                                        -1.8-0.9-3.5-1.8-5.9-1.8C61.1 5.9 59.1 5.9 59.1 5.9L59.1 5.9z"></path>
+                                            <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="bGBBgJ" data-hook="items-count">0</text></svg>
+                                        Добавить в корзину</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="presentation-img-content">
+                        <div class="present-img-item"><img src="assets/iPhone.png" alt="" class="p-img-item-w i-phone-img"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="presentation-area">
+                    <div class="presentation-text-content __background_2">
+                        <div class="__background_opacity"></div>
+                        <div class="p-r-title-block">
+                            <span class="p-r-title-text">iProduct</span>
+                        </div>
+                        <div class="p-r-content-body-text">
+                            <p class="p-r-des-text mar-b-36">iPhone</p>
+                            <p class="p-r-des-text-2 mar-b-36  mar-b-10">Просто монстр. Знакомьтесь, тот самый — самый впечатляющий Mac. Потрясающая производительность, невероятный потенциал расширения системы и создания пользовательских конфигураций. С Mac Pro для многих профи невозможное станет возможным.</p>
+                            <ul class="parameter-main-block">
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Процессор</p>
+                                    <p class="p-r-des-text-2">Intel Xeon W-3245 (16 ядер, 32 потока, 3,2 ГГц, Turbo Boost до 4,4 ГГц)</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Оперативная память</p>
+                                    <p class="p-r-des-text-2">192 ГБ LPDDR4 2666 МГц или 2933 МГц</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Дискретная графика</p>
+                                    <p class="p-r-des-text-2">2 AMD Radeon Pro Vega II c 32 ГБ памяти HBM2 с пропускной способностью 1 ТБ/с</p>
+                                </li>
+                                <li class="parameter-item mar-b-36">
+                                    <p class="p-r-des-text-2">Накопитель SSD</p>
+                                    <p class="p-r-des-text-2">4 ТБ</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2 price-num-text">Цена</p>
+                                    <p class="p-r-des-text-2 price-num-text">1999$</p>
+                                </li>
+                                <li class="parameter-item basked-add-item">
+                                    <button class="add_basked">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-1" class="backed-icon">
+                                            <path d="
+                                        M99.8 28.4c0-1.2-0.9-2-2.1-2h-15c0 3.2 0 7.6 0 8.2 0 1.5-1.2 2.6-2.6 2.9
+                                        -1.5 0.3-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.9 0-4.7 0-8.2H40.1c0 3.2 0
+                                        7.3 0 8.2 0 1.5-1.2 2.9-2.6 2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6
+                                        0-0.6 0-5 0-8.2h-15c-1.2 0-2 0.9-2 2L8.3 124c0 1.2 0.9 2.1 2.1 2.1h96.3c1.2
+                                        0 2.1-0.9 2.1-2.1L99.8 28.4z"></path>
+                                            <path d="M59.1 5.9c-2.9 0-2 0-2.9 0 -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3
+                                        -0.9 1.8-1.5 3.5-1.8 5.6 0 0.9-0.3 1.5-0.3 2.3 0 1.2 0 2.1 0 3.2 0 1.5-1.2 2.9-2.6
+                                        2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-1.2 0-2.3 0-3.5 0-3.2 0.9-6.4 2-9.4
+                                        1.2-2.3 2.6-4.7 4.7-6.4 3.2-2.9 6.7-5 11.1-5.9C53.5 0.3 55 0 56.7 0c1.5 0 2.9 0 4.4
+                                        0 2.9 0 5.6 0.6 7.9 1.8 2.6 1.2 5 2.6 6.7 4.4 3.2 3.2 5.3 6.7 6.4 11.1 0.3 1.5 0.6
+                                        3.2 0.6 4.7 0 1.2 0 2.3 0 3.2 0 1.5-1.2 2.6-2.6 2.9s-2.9-0.9-3.2-2.3c0-0.3 0-0.3
+                                        0-0.6 0-1.2 0-2.6 0-3.8 0-2.3-0.6-4.4-1.8-6.4 -1.5-3.2-4.1-5.9-7.3-7.3
+                                        -1.8-0.9-3.5-1.8-5.9-1.8C61.1 5.9 59.1 5.9 59.1 5.9L59.1 5.9z"></path>
+                                            <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="bGBBgJ" data-hook="items-count">0</text></svg>
+                                        Добавить в корзину</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="presentation-img-content">
+                        <div class="present-img-item"><img src="assets/iPhone.png" alt="" class="p-img-item-w i-phone-img"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="presentation-area">
+                    <div class="presentation-text-content __background_2">
+                        <div class="__background_opacity"></div>
+                        <div class="p-r-title-block">
+                            <span class="p-r-title-text">iProduct</span>
+                        </div>
+                        <div class="p-r-content-body-text">
+                            <p class="p-r-des-text mar-b-36">iPhone</p>
+                            <p class="p-r-des-text-2 mar-b-36  mar-b-10">Просто монстр. Знакомьтесь, тот самый — самый впечатляющий Mac. Потрясающая производительность, невероятный потенциал расширения системы и создания пользовательских конфигураций. С Mac Pro для многих профи невозможное станет возможным.</p>
+                            <ul class="parameter-main-block">
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Процессор</p>
+                                    <p class="p-r-des-text-2">Intel Xeon W-3245 (16 ядер, 32 потока, 3,2 ГГц, Turbo Boost до 4,4 ГГц)</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Оперативная память</p>
+                                    <p class="p-r-des-text-2">192 ГБ LPDDR4 2666 МГц или 2933 МГц</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Дискретная графика</p>
+                                    <p class="p-r-des-text-2">2 AMD Radeon Pro Vega II c 32 ГБ памяти HBM2 с пропускной способностью 1 ТБ/с</p>
+                                </li>
+                                <li class="parameter-item mar-b-36">
+                                    <p class="p-r-des-text-2">Накопитель SSD</p>
+                                    <p class="p-r-des-text-2">4 ТБ</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2 price-num-text">Цена</p>
+                                    <p class="p-r-des-text-2 price-num-text">1999$</p>
+                                </li>
+                                <li class="parameter-item basked-add-item">
+                                    <button class="add_basked">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-1" class="backed-icon">
+                                            <path d="
+                                        M99.8 28.4c0-1.2-0.9-2-2.1-2h-15c0 3.2 0 7.6 0 8.2 0 1.5-1.2 2.6-2.6 2.9
+                                        -1.5 0.3-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.9 0-4.7 0-8.2H40.1c0 3.2 0
+                                        7.3 0 8.2 0 1.5-1.2 2.9-2.6 2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6
+                                        0-0.6 0-5 0-8.2h-15c-1.2 0-2 0.9-2 2L8.3 124c0 1.2 0.9 2.1 2.1 2.1h96.3c1.2
+                                        0 2.1-0.9 2.1-2.1L99.8 28.4z"></path>
+                                            <path d="M59.1 5.9c-2.9 0-2 0-2.9 0 -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3
+                                        -0.9 1.8-1.5 3.5-1.8 5.6 0 0.9-0.3 1.5-0.3 2.3 0 1.2 0 2.1 0 3.2 0 1.5-1.2 2.9-2.6
+                                        2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-1.2 0-2.3 0-3.5 0-3.2 0.9-6.4 2-9.4
+                                        1.2-2.3 2.6-4.7 4.7-6.4 3.2-2.9 6.7-5 11.1-5.9C53.5 0.3 55 0 56.7 0c1.5 0 2.9 0 4.4
+                                        0 2.9 0 5.6 0.6 7.9 1.8 2.6 1.2 5 2.6 6.7 4.4 3.2 3.2 5.3 6.7 6.4 11.1 0.3 1.5 0.6
+                                        3.2 0.6 4.7 0 1.2 0 2.3 0 3.2 0 1.5-1.2 2.6-2.6 2.9s-2.9-0.9-3.2-2.3c0-0.3 0-0.3
+                                        0-0.6 0-1.2 0-2.6 0-3.8 0-2.3-0.6-4.4-1.8-6.4 -1.5-3.2-4.1-5.9-7.3-7.3
+                                        -1.8-0.9-3.5-1.8-5.9-1.8C61.1 5.9 59.1 5.9 59.1 5.9L59.1 5.9z"></path>
+                                            <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="bGBBgJ" data-hook="items-count">0</text></svg>
+                                        Добавить в корзину</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="presentation-img-content">
+                        <div class="present-img-item"><img src="assets/iPhone.png" alt="" class="p-img-item-w i-phone-img"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav_swiper">
+            <div class="btn-prev">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="nav_0icon0">
+                    <path d="
+                    M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8
+                    0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/>
+                </svg>
+            </div>
+            <div id="dots-container_3" class="s-dot-block"></div>
+            <div class="btn-next">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="nav_0icon0">
+                    <path d="
+                    M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8
+                     0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div class="swiper_4">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="presentation-area">
+                    <div class="presentation-text-content __background_2">
+                        <div class="__background_opacity"></div>
+                        <div class="p-r-title-block">
+                            <span class="p-r-title-text">iProduct</span>
+                        </div>
+                        <div class="p-r-content-body-text">
+                            <p class="p-r-des-text mar-b-36">Watch</p>
+                            <p class="p-r-des-text-2 mar-b-36  mar-b-10">Просто монстр. Знакомьтесь, тот самый — самый впечатляющий Mac. Потрясающая производительность, невероятный потенциал расширения системы и создания пользовательских конфигураций. С Mac Pro для многих профи невозможное станет возможным.</p>
+                            <ul class="parameter-main-block">
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Процессор</p>
+                                    <p class="p-r-des-text-2">Intel Xeon W-3245 (16 ядер, 32 потока, 3,2 ГГц, Turbo Boost до 4,4 ГГц)</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Оперативная память</p>
+                                    <p class="p-r-des-text-2">192 ГБ LPDDR4 2666 МГц или 2933 МГц</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Дискретная графика</p>
+                                    <p class="p-r-des-text-2">2 AMD Radeon Pro Vega II c 32 ГБ памяти HBM2 с пропускной способностью 1 ТБ/с</p>
+                                </li>
+                                <li class="parameter-item mar-b-36">
+                                    <p class="p-r-des-text-2">Накопитель SSD</p>
+                                    <p class="p-r-des-text-2">4 ТБ</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2 price-num-text">Цена</p>
+                                    <p class="p-r-des-text-2 price-num-text">1999$</p>
+                                </li>
+                                <li class="parameter-item basked-add-item">
+                                    <button class="add_basked">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-1" class="backed-icon">
+                                            <path d="
+                                        M99.8 28.4c0-1.2-0.9-2-2.1-2h-15c0 3.2 0 7.6 0 8.2 0 1.5-1.2 2.6-2.6 2.9
+                                        -1.5 0.3-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.9 0-4.7 0-8.2H40.1c0 3.2 0
+                                        7.3 0 8.2 0 1.5-1.2 2.9-2.6 2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6
+                                        0-0.6 0-5 0-8.2h-15c-1.2 0-2 0.9-2 2L8.3 124c0 1.2 0.9 2.1 2.1 2.1h96.3c1.2
+                                        0 2.1-0.9 2.1-2.1L99.8 28.4z"></path>
+                                            <path d="M59.1 5.9c-2.9 0-2 0-2.9 0 -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3
+                                        -0.9 1.8-1.5 3.5-1.8 5.6 0 0.9-0.3 1.5-0.3 2.3 0 1.2 0 2.1 0 3.2 0 1.5-1.2 2.9-2.6
+                                        2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-1.2 0-2.3 0-3.5 0-3.2 0.9-6.4 2-9.4
+                                        1.2-2.3 2.6-4.7 4.7-6.4 3.2-2.9 6.7-5 11.1-5.9C53.5 0.3 55 0 56.7 0c1.5 0 2.9 0 4.4
+                                        0 2.9 0 5.6 0.6 7.9 1.8 2.6 1.2 5 2.6 6.7 4.4 3.2 3.2 5.3 6.7 6.4 11.1 0.3 1.5 0.6
+                                        3.2 0.6 4.7 0 1.2 0 2.3 0 3.2 0 1.5-1.2 2.6-2.6 2.9s-2.9-0.9-3.2-2.3c0-0.3 0-0.3
+                                        0-0.6 0-1.2 0-2.6 0-3.8 0-2.3-0.6-4.4-1.8-6.4 -1.5-3.2-4.1-5.9-7.3-7.3
+                                        -1.8-0.9-3.5-1.8-5.9-1.8C61.1 5.9 59.1 5.9 59.1 5.9L59.1 5.9z"></path>
+                                            <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="bGBBgJ" data-hook="items-count">0</text></svg>
+                                        Добавить в корзину</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="presentation-img-content">
+                        <div class="present-img-item"><img src="assets/Watch.png" alt="" class="p-img-item-w " ></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="presentation-area">
+                    <div class="presentation-text-content __background_2">
+                        <div class="__background_opacity"></div>
+                        <div class="p-r-title-block">
+                            <span class="p-r-title-text">iProduct</span>
+                        </div>
+                        <div class="p-r-content-body-text">
+                            <p class="p-r-des-text mar-b-36">Watch</p>
+                            <p class="p-r-des-text-2 mar-b-36  mar-b-10">Просто монстр. Знакомьтесь, тот самый — самый впечатляющий Mac. Потрясающая производительность, невероятный потенциал расширения системы и создания пользовательских конфигураций. С Mac Pro для многих профи невозможное станет возможным.</p>
+                            <ul class="parameter-main-block">
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Процессор</p>
+                                    <p class="p-r-des-text-2">Intel Xeon W-3245 (16 ядер, 32 потока, 3,2 ГГц, Turbo Boost до 4,4 ГГц)</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Оперативная память</p>
+                                    <p class="p-r-des-text-2">192 ГБ LPDDR4 2666 МГц или 2933 МГц</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Дискретная графика</p>
+                                    <p class="p-r-des-text-2">2 AMD Radeon Pro Vega II c 32 ГБ памяти HBM2 с пропускной способностью 1 ТБ/с</p>
+                                </li>
+                                <li class="parameter-item mar-b-36">
+                                    <p class="p-r-des-text-2">Накопитель SSD</p>
+                                    <p class="p-r-des-text-2">4 ТБ</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2 price-num-text">Цена</p>
+                                    <p class="p-r-des-text-2 price-num-text">1999$</p>
+                                </li>
+                                <li class="parameter-item basked-add-item">
+                                    <button class="add_basked">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-1" class="backed-icon">
+                                            <path d="
+                                        M99.8 28.4c0-1.2-0.9-2-2.1-2h-15c0 3.2 0 7.6 0 8.2 0 1.5-1.2 2.6-2.6 2.9
+                                        -1.5 0.3-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.9 0-4.7 0-8.2H40.1c0 3.2 0
+                                        7.3 0 8.2 0 1.5-1.2 2.9-2.6 2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6
+                                        0-0.6 0-5 0-8.2h-15c-1.2 0-2 0.9-2 2L8.3 124c0 1.2 0.9 2.1 2.1 2.1h96.3c1.2
+                                        0 2.1-0.9 2.1-2.1L99.8 28.4z"></path>
+                                            <path d="M59.1 5.9c-2.9 0-2 0-2.9 0 -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3
+                                        -0.9 1.8-1.5 3.5-1.8 5.6 0 0.9-0.3 1.5-0.3 2.3 0 1.2 0 2.1 0 3.2 0 1.5-1.2 2.9-2.6
+                                        2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-1.2 0-2.3 0-3.5 0-3.2 0.9-6.4 2-9.4
+                                        1.2-2.3 2.6-4.7 4.7-6.4 3.2-2.9 6.7-5 11.1-5.9C53.5 0.3 55 0 56.7 0c1.5 0 2.9 0 4.4
+                                        0 2.9 0 5.6 0.6 7.9 1.8 2.6 1.2 5 2.6 6.7 4.4 3.2 3.2 5.3 6.7 6.4 11.1 0.3 1.5 0.6
+                                        3.2 0.6 4.7 0 1.2 0 2.3 0 3.2 0 1.5-1.2 2.6-2.6 2.9s-2.9-0.9-3.2-2.3c0-0.3 0-0.3
+                                        0-0.6 0-1.2 0-2.6 0-3.8 0-2.3-0.6-4.4-1.8-6.4 -1.5-3.2-4.1-5.9-7.3-7.3
+                                        -1.8-0.9-3.5-1.8-5.9-1.8C61.1 5.9 59.1 5.9 59.1 5.9L59.1 5.9z"></path>
+                                            <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="bGBBgJ" data-hook="items-count">0</text></svg>
+                                        Добавить в корзину</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="presentation-img-content">
+                        <div class="present-img-item"><img src="assets/Watch.png" alt="" class="p-img-item-w " ></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="presentation-area">
+                    <div class="presentation-text-content __background_2">
+                        <div class="__background_opacity"></div>
+                        <div class="p-r-title-block">
+                            <span class="p-r-title-text">iProduct</span>
+                        </div>
+                        <div class="p-r-content-body-text">
+                            <p class="p-r-des-text mar-b-36">Watch</p>
+                            <p class="p-r-des-text-2 mar-b-36  mar-b-10">Просто монстр. Знакомьтесь, тот самый — самый впечатляющий Mac. Потрясающая производительность, невероятный потенциал расширения системы и создания пользовательских конфигураций. С Mac Pro для многих профи невозможное станет возможным.</p>
+                            <ul class="parameter-main-block">
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Процессор</p>
+                                    <p class="p-r-des-text-2">Intel Xeon W-3245 (16 ядер, 32 потока, 3,2 ГГц, Turbo Boost до 4,4 ГГц)</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Оперативная память</p>
+                                    <p class="p-r-des-text-2">192 ГБ LPDDR4 2666 МГц или 2933 МГц</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Дискретная графика</p>
+                                    <p class="p-r-des-text-2">2 AMD Radeon Pro Vega II c 32 ГБ памяти HBM2 с пропускной способностью 1 ТБ/с</p>
+                                </li>
+                                <li class="parameter-item mar-b-36">
+                                    <p class="p-r-des-text-2">Накопитель SSD</p>
+                                    <p class="p-r-des-text-2">4 ТБ</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2 price-num-text">Цена</p>
+                                    <p class="p-r-des-text-2 price-num-text">1999$</p>
+                                </li>
+                                <li class="parameter-item basked-add-item">
+                                    <button class="add_basked">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-1" class="backed-icon">
+                                            <path d="
+                                        M99.8 28.4c0-1.2-0.9-2-2.1-2h-15c0 3.2 0 7.6 0 8.2 0 1.5-1.2 2.6-2.6 2.9
+                                        -1.5 0.3-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.9 0-4.7 0-8.2H40.1c0 3.2 0
+                                        7.3 0 8.2 0 1.5-1.2 2.9-2.6 2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6
+                                        0-0.6 0-5 0-8.2h-15c-1.2 0-2 0.9-2 2L8.3 124c0 1.2 0.9 2.1 2.1 2.1h96.3c1.2
+                                        0 2.1-0.9 2.1-2.1L99.8 28.4z"></path>
+                                            <path d="M59.1 5.9c-2.9 0-2 0-2.9 0 -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3
+                                        -0.9 1.8-1.5 3.5-1.8 5.6 0 0.9-0.3 1.5-0.3 2.3 0 1.2 0 2.1 0 3.2 0 1.5-1.2 2.9-2.6
+                                        2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-1.2 0-2.3 0-3.5 0-3.2 0.9-6.4 2-9.4
+                                        1.2-2.3 2.6-4.7 4.7-6.4 3.2-2.9 6.7-5 11.1-5.9C53.5 0.3 55 0 56.7 0c1.5 0 2.9 0 4.4
+                                        0 2.9 0 5.6 0.6 7.9 1.8 2.6 1.2 5 2.6 6.7 4.4 3.2 3.2 5.3 6.7 6.4 11.1 0.3 1.5 0.6
+                                        3.2 0.6 4.7 0 1.2 0 2.3 0 3.2 0 1.5-1.2 2.6-2.6 2.9s-2.9-0.9-3.2-2.3c0-0.3 0-0.3
+                                        0-0.6 0-1.2 0-2.6 0-3.8 0-2.3-0.6-4.4-1.8-6.4 -1.5-3.2-4.1-5.9-7.3-7.3
+                                        -1.8-0.9-3.5-1.8-5.9-1.8C61.1 5.9 59.1 5.9 59.1 5.9L59.1 5.9z"></path>
+                                            <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="bGBBgJ" data-hook="items-count">0</text></svg>
+                                        Добавить в корзину</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="presentation-img-content">
+                        <div class="present-img-item"><img src="assets/Watch.png" alt="" class="p-img-item-w " ></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="presentation-area">
+                    <div class="presentation-text-content __background_2">
+                        <div class="__background_opacity"></div>
+                        <div class="p-r-title-block">
+                            <span class="p-r-title-text">iProduct</span>
+                        </div>
+                        <div class="p-r-content-body-text">
+                            <p class="p-r-des-text mar-b-36">Watch</p>
+                            <p class="p-r-des-text-2 mar-b-36  mar-b-10">Просто монстр. Знакомьтесь, тот самый — самый впечатляющий Mac. Потрясающая производительность, невероятный потенциал расширения системы и создания пользовательских конфигураций. С Mac Pro для многих профи невозможное станет возможным.</p>
+                            <ul class="parameter-main-block">
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Процессор</p>
+                                    <p class="p-r-des-text-2">Intel Xeon W-3245 (16 ядер, 32 потока, 3,2 ГГц, Turbo Boost до 4,4 ГГц)</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Оперативная память</p>
+                                    <p class="p-r-des-text-2">192 ГБ LPDDR4 2666 МГц или 2933 МГц</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Дискретная графика</p>
+                                    <p class="p-r-des-text-2">2 AMD Radeon Pro Vega II c 32 ГБ памяти HBM2 с пропускной способностью 1 ТБ/с</p>
+                                </li>
+                                <li class="parameter-item mar-b-36">
+                                    <p class="p-r-des-text-2">Накопитель SSD</p>
+                                    <p class="p-r-des-text-2">4 ТБ</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2 price-num-text">Цена</p>
+                                    <p class="p-r-des-text-2 price-num-text">1999$</p>
+                                </li>
+                                <li class="parameter-item basked-add-item">
+                                    <button class="add_basked">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-1" class="backed-icon">
+                                            <path d="
+                                        M99.8 28.4c0-1.2-0.9-2-2.1-2h-15c0 3.2 0 7.6 0 8.2 0 1.5-1.2 2.6-2.6 2.9
+                                        -1.5 0.3-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.9 0-4.7 0-8.2H40.1c0 3.2 0
+                                        7.3 0 8.2 0 1.5-1.2 2.9-2.6 2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6
+                                        0-0.6 0-5 0-8.2h-15c-1.2 0-2 0.9-2 2L8.3 124c0 1.2 0.9 2.1 2.1 2.1h96.3c1.2
+                                        0 2.1-0.9 2.1-2.1L99.8 28.4z"></path>
+                                            <path d="M59.1 5.9c-2.9 0-2 0-2.9 0 -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3
+                                        -0.9 1.8-1.5 3.5-1.8 5.6 0 0.9-0.3 1.5-0.3 2.3 0 1.2 0 2.1 0 3.2 0 1.5-1.2 2.9-2.6
+                                        2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-1.2 0-2.3 0-3.5 0-3.2 0.9-6.4 2-9.4
+                                        1.2-2.3 2.6-4.7 4.7-6.4 3.2-2.9 6.7-5 11.1-5.9C53.5 0.3 55 0 56.7 0c1.5 0 2.9 0 4.4
+                                        0 2.9 0 5.6 0.6 7.9 1.8 2.6 1.2 5 2.6 6.7 4.4 3.2 3.2 5.3 6.7 6.4 11.1 0.3 1.5 0.6
+                                        3.2 0.6 4.7 0 1.2 0 2.3 0 3.2 0 1.5-1.2 2.6-2.6 2.9s-2.9-0.9-3.2-2.3c0-0.3 0-0.3
+                                        0-0.6 0-1.2 0-2.6 0-3.8 0-2.3-0.6-4.4-1.8-6.4 -1.5-3.2-4.1-5.9-7.3-7.3
+                                        -1.8-0.9-3.5-1.8-5.9-1.8C61.1 5.9 59.1 5.9 59.1 5.9L59.1 5.9z"></path>
+                                            <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="bGBBgJ" data-hook="items-count">0</text></svg>
+                                        Добавить в корзину</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="presentation-img-content">
+                        <div class="present-img-item"><img src="assets/Watch.png" alt="" class="p-img-item-w " ></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="presentation-area">
+                    <div class="presentation-text-content __background_2">
+                        <div class="__background_opacity"></div>
+                        <div class="p-r-title-block">
+                            <span class="p-r-title-text">iProduct</span>
+                        </div>
+                        <div class="p-r-content-body-text">
+                            <p class="p-r-des-text mar-b-36">Watch</p>
+                            <p class="p-r-des-text-2 mar-b-36  mar-b-10">Просто монстр. Знакомьтесь, тот самый — самый впечатляющий Mac. Потрясающая производительность, невероятный потенциал расширения системы и создания пользовательских конфигураций. С Mac Pro для многих профи невозможное станет возможным.</p>
+                            <ul class="parameter-main-block">
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Процессор</p>
+                                    <p class="p-r-des-text-2">Intel Xeon W-3245 (16 ядер, 32 потока, 3,2 ГГц, Turbo Boost до 4,4 ГГц)</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Оперативная память</p>
+                                    <p class="p-r-des-text-2">192 ГБ LPDDR4 2666 МГц или 2933 МГц</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2">Дискретная графика</p>
+                                    <p class="p-r-des-text-2">2 AMD Radeon Pro Vega II c 32 ГБ памяти HBM2 с пропускной способностью 1 ТБ/с</p>
+                                </li>
+                                <li class="parameter-item mar-b-36">
+                                    <p class="p-r-des-text-2">Накопитель SSD</p>
+                                    <p class="p-r-des-text-2">4 ТБ</p>
+                                </li>
+                                <li class="parameter-item">
+                                    <p class="p-r-des-text-2 price-num-text">Цена</p>
+                                    <p class="p-r-des-text-2 price-num-text">1999$</p>
+                                </li>
+                                <li class="parameter-item basked-add-item">
+                                    <button class="add_basked">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%" viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet" data-hook="svg-icon-1" class="backed-icon">
+                                            <path d="
+                                        M99.8 28.4c0-1.2-0.9-2-2.1-2h-15c0 3.2 0 7.6 0 8.2 0 1.5-1.2 2.6-2.6 2.9
+                                        -1.5 0.3-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.9 0-4.7 0-8.2H40.1c0 3.2 0
+                                        7.3 0 8.2 0 1.5-1.2 2.9-2.6 2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6
+                                        0-0.6 0-5 0-8.2h-15c-1.2 0-2 0.9-2 2L8.3 124c0 1.2 0.9 2.1 2.1 2.1h96.3c1.2
+                                        0 2.1-0.9 2.1-2.1L99.8 28.4z"></path>
+                                            <path d="M59.1 5.9c-2.9 0-2 0-2.9 0 -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3
+                                        -0.9 1.8-1.5 3.5-1.8 5.6 0 0.9-0.3 1.5-0.3 2.3 0 1.2 0 2.1 0 3.2 0 1.5-1.2 2.9-2.6
+                                        2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-1.2 0-2.3 0-3.5 0-3.2 0.9-6.4 2-9.4
+                                        1.2-2.3 2.6-4.7 4.7-6.4 3.2-2.9 6.7-5 11.1-5.9C53.5 0.3 55 0 56.7 0c1.5 0 2.9 0 4.4
+                                        0 2.9 0 5.6 0.6 7.9 1.8 2.6 1.2 5 2.6 6.7 4.4 3.2 3.2 5.3 6.7 6.4 11.1 0.3 1.5 0.6
+                                        3.2 0.6 4.7 0 1.2 0 2.3 0 3.2 0 1.5-1.2 2.6-2.6 2.9s-2.9-0.9-3.2-2.3c0-0.3 0-0.3
+                                        0-0.6 0-1.2 0-2.6 0-3.8 0-2.3-0.6-4.4-1.8-6.4 -1.5-3.2-4.1-5.9-7.3-7.3
+                                        -1.8-0.9-3.5-1.8-5.9-1.8C61.1 5.9 59.1 5.9 59.1 5.9L59.1 5.9z"></path>
+                                            <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="bGBBgJ" data-hook="items-count">0</text></svg>
+                                        Добавить в корзину</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="presentation-img-content">
+                        <div class="present-img-item"><img src="assets/Watch.png" alt="" class="p-img-item-w " ></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav_swiper">
+            <div class="btn-prev">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="nav_0icon0">
+                    <path d="
+                    M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8
+                    0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/>
+                </svg>
+            </div>
+            <div id="dots-container_4" class="s-dot-block"></div>
+            <div class="btn-next">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="nav_0icon0">
+                    <path d="
+                    M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8
+                     0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/>
+                </svg>
+            </div>
         </div>
     </div>
 </div>
-<!--section-how-using-->
-<!---->
-<div class="order-product-area">
-    <div class="order-icon"><img src="assets/icon%204.png" alt="" ></div>
-    <span class="p-r-title-text mar-b-36">ЧАСЫ, МЕНЯЮЩИЕ ЖИЗНЬ </span>
-    <span class="p-r-des-text">Закажите 0.4 TrackMate XE сегодня</span>
-    <div class="btn-block mar-t-50"><a href=""><button class="p-btn mar-default">Купить</button></a></div>
-    <img src="assets/shutterstock_5.png" alt="">
-    <span class="p-r-des-text w-50 ">Подпишитесь и получите 15% скидку на первую покупку</span>
-    <div class="sub-form-block mar-t-50">
-        <div class="sub-text"><span>Эл. почта</span></div>
-        <div class="sub-form-item">
-            <input type="text" class="sub-w-text" placeholder="Добавьте свою эл. почту">
-            <button class="sub-btn">Подписаться</button>
-        </div>
-    </div>
-</div>
-<!---->
 <!--footer-->
     <div class="footer-block">
         <div class="container">
@@ -217,11 +1726,20 @@
                     <a class="f-social-net-text"><span>Защита данных</span></a>
                 </div>
             </div>
-            <div class="f-info-block">
-                <span class="f-social-net-text">© 2023 by Sher </span>
+            <div class="f-nav-item-block-2">
+                <div class="f-info-block">
+                    <span class="f-social-net-text f-s">© 2023 by Sher </span>
+                </div>
+                <div class="f-nav-panel-2">
+                    <a href="" class="f-social-net-text mar-r-15"><img src="assets/Visa.png" alt=""></a>
+                    <a href="" class="f-social-net-text mar-r-15"><img src="assets/brand-mastercard_3x.png" alt=""></a>
+                    <a href="" class="f-social-net-text mar-r-15"><img src="assets/brand-chinaunionpay_3x.png" alt=""></a>
+                </div>
             </div>
         </div>
     </div>
 <!--footer-->
+<script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </body>
 </html>
