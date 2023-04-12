@@ -1,6 +1,8 @@
 *{
     box-sizing: border-box;
     transition: all .3s;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
 }
 body{
     margin: 0;
@@ -53,6 +55,7 @@ body::-webkit-scrollbar-thumb {
 .swiper_4{
     width: 100%;
    overflow-x: hidden;
+    user-select: none;
 }  .s-dot-block{
     display: flex;
     width: 50%;
@@ -142,6 +145,8 @@ body::-webkit-scrollbar-thumb {
 .backed-block-icon{
     width: 100%;
     height: 100%;
+    display: flex;
+    align-items: center;
     cursor: pointer;
 }
 .bGBBgJ{
@@ -289,7 +294,7 @@ body::-webkit-scrollbar-thumb {
 .p-r-title-block{
     display: flex;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 100px;
     z-index: 1;
     position: relative;
     margin-left: 250px;
@@ -316,8 +321,23 @@ body::-webkit-scrollbar-thumb {
     line-height: 1.6em;
     width: 75%;
 }
+.price-num-text{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.parameter-main-block{
+    list-style: none;
+    padding: 0;
+    margin-top: 30px ;
+    width: 78%;
+}
+.parameter-item{
+    display: flex;
+    margin-top: 10px;
+}
 .mar-b-36{
-margin-bottom: 36px;
+    margin-bottom: 20px;
 }
 .presentation-img-content{
     background: rgb(80,41,132);
@@ -381,12 +401,151 @@ margin-bottom: 36px;
     padding: 34px;
     width: 350px;
 }
+.basked-card{
+    width: 100%;
+    display: flex;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.product-text{
+    font-size: 16px;
+    color: #222222;
+    margin-top: 15px;
+}
 .basked-body-text{
     font-size: 18px;
     text-align: center;
     cursor: default;
+    display: none;
 }
-
+.product-img{
+    border-radius: 8px;
+}
+.product-img-item{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.mar-l{
+    margin-left: 50px;
+}
+.basked-checkbox{
+    margin: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: #ffffff;
+    border: 1px solid #222222;
+    outline: none;
+    border-radius: 50%;
+}
+.basked-checkbox-block input:checked{
+    position: relative;
+    background-color: #84619C;
+    border-color: transparent;
+}
+.basked-checkbox-block input:checked::after {
+    box-sizing: border-box;
+    content: "✓";
+    position: absolute;
+    color: #ffffff;
+    font-size: 10px;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.basked-checkbox-block{
+    display: flex;
+    align-items: end;
+}
+.product-number{
+    display: flex;
+    text-align: right;
+    margin-top: 20px;
+    justify-content: center;
+}
+.product-num-text{
+    font-size: 20px;
+    color: #222222;
+    margin: 0 15px;
+}
+.counter-input{
+    display: inline-block;
+    width: 25%;
+}
+.counter__val{
+    width: 65% ;
+    display: inline-block;
+    border: none;
+    appearance: none;
+    background: transparent;
+    text-align: center;
+    user-select: none;
+}
+.num-product{
+    cursor: pointer;
+    user-select: none;
+    background: transparent;
+}
+.product-order{
+    width: 100%;
+}
+.basked-content-block{
+    display: flex;
+}
+.fw{
+    color: #ffffff;
+    margin-right: 30px;
+}
+.delete-product-icon{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    justify-content: right;
+    cursor: pointer;
+}
+.delete-icon-item{
+    width: 15px;
+    height: 15px;
+    fill: #d33333;
+}
+.basked-nav-panel{
+    display: flex;
+}
+.add_basked{
+    background: #A328FF;
+    box-shadow:  0.00px 1.00px 20px 0px rgba(125,43,196,1),0 1px 4px rgba(0,0,0,.6);
+    font-size: 16px;
+    color: #ffffff;
+    width: 220px;
+    height: 46px;
+    text-align: center;
+    border-radius: 32px;
+    margin-top: 28px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add_basked svg{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+.add_basked:hover {
+    background: #ffffff;
+    color: rgba(0, 0, 0, .6);
+}
+.add_basked:hover svg{
+    fill: rgba(0, 0, 0, .6);
+    transition:  all .2s;
+}
 /*footer*/
 .footer-block{
     background: url("assets/background.jpg");
@@ -475,7 +634,7 @@ margin-bottom: 36px;
     }
     .presentation-area{
         flex-direction: column-reverse;
-        height: 765px;
+        height: 100%;
     }
     .p-r-title-block{
         align-items: baseline;
@@ -487,6 +646,7 @@ margin-bottom: 36px;
         width: 100%;
         margin-top: 12px;
         margin-left: 0;
+        margin-bottom: 12px;
     }
     .p-r-title-text{
         font-size: 10px;
@@ -501,7 +661,10 @@ margin-bottom: 36px;
     }
     .presentation-text-content{
         padding: 20px 20px;
-        height: 348px;
+        width: 100%;
+
+    }
+    .parameter-main-block{
         width: 100%;
     }
     .__background_2{
@@ -538,6 +701,30 @@ margin-bottom: 36px;
     }
     .mar-b-36{
         margin-bottom: 4px;
+    }
+    .basked-content-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mar-l{
+        margin-left: 0;
+    }
+    .basked-nav-panel{
+        flex-direction: column-reverse;
+    }
+    .product-order{
+        width: 100%;
+    }
+    .fw{
+        display: none;
+    }
+    .delete-product-icon{
+        padding-left: 20px;
+    }
+    .basked-add-item{
+        display: flex;
+        justify-content: center;
     }
     /*footer*/
     .f-nav-item-block{
@@ -622,7 +809,7 @@ margin-bottom: 36px;
     }
     .presentation-area{
         flex-direction: column-reverse;
-        height: 765px;
+        height: 100%;
     }
     .p-r-title-block{
         align-items: baseline;
@@ -634,6 +821,7 @@ margin-bottom: 36px;
         width: 100%;
         margin-top: 12px;
         margin-left: 0;
+        margin-bottom: 12px;
     }
     .p-r-title-text{
         font-size: 10px;
@@ -648,7 +836,6 @@ margin-bottom: 36px;
     }
     .presentation-text-content{
         padding: 20px 20px;
-        height: 348px;
         width: 100%;
     }
     .__background_2{
@@ -685,6 +872,15 @@ margin-bottom: 36px;
     }
     .mar-b-36{
         margin-bottom: 4px;
+    }
+    .counter-input{
+        width: 60%;
+    }
+    .counter__val{
+        width: 45%;
+    }
+    .delete-product-icon{
+        padding: 0;
     }
     /*footer*/
     .f-nav-item-block{

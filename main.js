@@ -9,6 +9,33 @@ document.addEventListener('DOMContentLoaded' , () => {
         collapse.addEventListener('click' , () => {
             backedNav.classList.remove('active-nav')
         });
+
+
+    const counters = document.querySelectorAll('[data-counter]')
+
+    if (counters) {
+        counters.forEach( counter => {
+            counter.addEventListener('click' , e=> {
+                const target = e.target;
+                if (target.closest('.counter__btn')){
+                    let value = parseInt(target.closest('.product-number').querySelector('input').value);
+                    let clear_product = document.querySelector('.delete-product');
+                    if (target.classList.contains('plus')){
+                        value++;
+                    }else {
+                        --value;
+                        if (value <= 1) {
+                            value = 1
+                        }
+                    }
+                    target.closest('.product-number').querySelector('input').value = value;
+                }
+            })
+        })
+    }
+
+
+
     const swiper = new Swiper('.swiper' ,{
         direction: 'horizontal',
         slidesPerView: 1,

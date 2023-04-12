@@ -5,23 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c233f5bc-3f5c-4033-858d-c83c988d7c2a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../assets/1680611019124.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/2019-MP-WEB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/PicsArt_04-04-05.10.28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/Visa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/background_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/background__img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/brand-chinaunionpay_3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/brand-mastercard_3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/c837a6_98a516fd3a66427ab4cd0cf2b2a13ca2_mv2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/iPad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/iPhone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/macBook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assets/watch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tamplate-for-market-place.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketPlace/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketPlace/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketPlace/assets/1680611019124.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketPlace/assets/2019-MP-WEB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketPlace/assets/PicsArt_04-04-05.10.28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketPlace/assets/Visa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketPlace/assets/Watch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketPlace/assets/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketPlace/assets/background_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketPlace/assets/background__img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketPlace/assets/brand-chinaunionpay_3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketPlace/assets/brand-mastercard_3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketPlace/assets/c837a6_98a516fd3a66427ab4cd0cf2b2a13ca2_mv2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketPlace/assets/iPad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketPlace/assets/iPhone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketPlace/assets/macBook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketPlace/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketPlace/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MarketPlace/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +45,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MeDpkcEQTYIAMvXsFWeptayPoj" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -60,7 +69,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.typescriptcompiler",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -94,6 +103,9 @@
       <workItem from="1680972992137" duration="705000" />
       <workItem from="1681040013010" duration="3441000" />
       <workItem from="1681056450137" duration="5000" />
+      <workItem from="1681082036189" duration="56000" />
+      <workItem from="1681082154633" duration="532000" />
+      <workItem from="1681324478099" duration="2745000" />
     </task>
     <servers />
   </component>
@@ -110,5 +122,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
 </project>
