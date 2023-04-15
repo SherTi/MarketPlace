@@ -124,7 +124,7 @@
                 <img src="/assets/iPhone.png" alt="" class="s_img_mini_v_item">
             </div>
             <div class="select_product_description">
-                <p class="p-r-des-text-2">
+                <p class="p-r-des-text-2 w-100">
                     Это описание товара. Что-бы привлечь внимание покупателей. Опишите ваш товар коротко и ясно, используйте уникальные ключевые слова.
                 </p>
             </div>
@@ -142,14 +142,33 @@
                 <div class="select_product_counter">
                     <p class="p-r-des-text-2">Количество</p>
                     <div class="select_num product-number " data-counter>
-                        <button class=" counter__btn select_counter plus_select plus">∧</button>
-                        <div class=""><input class="product-num-text mar_def back_wh_select" value="1"  disabled></div>
-                        <button class="counter__btn select_counter minus_select minus">∨</button>
+                        <div class="btn_set">
+                            <button class=" counter__btn select_counter plus_select ">
+                                <img src="/assets/angle-up-solid.svg" alt="" class="angle-arrow plus">
+                            </button>
+                            <button class="counter__btn select_counter minus_select minus">
+                                <img src="/assets/angle-down-solid.svg" alt="" class="angle-arrow">
+                            </button>
+                        </div>
+                        <div class="select_input_block"><input class="product-num-text mar_def back_wh_select" value="1"  disabled></div>
                     </div>
                 </div>
                 <div class="basked-nav-panel">
-                    <button class="p-btn product-order">Добавить в корзину</button>
+                    <button class="p-btn s-bnt product-order">Добавить в корзину</button>
                 </div>
+                <ul class="select_product_des">
+                    <li class="select_product_li select_product_li_border">
+                        <button class="select_des_btn">
+                            <p class="select_product_title">О ТОВАРЕ</p>
+                            <p class="select_product_title_plus">+</p>
+                        </button>
+                        <div class="select_product_text_des">
+                            <p class="select_product_text">
+                                Это информация о товаре. Расскажите подробно, что он из себя представляет, и перечислите всю необходимую информацию: размеры, материалы, инструкции по уходу и т. д. Это также хорошая возможность сообщить, в чем особенность вашей продукции и какую выгоду покупатели получат в итоге.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>

@@ -34,7 +34,11 @@ document.addEventListener('DOMContentLoaded' , () => {
         })
     }
 
-
+    let select_des = document.querySelector('.select_product_title_plus')
+    let li_element = document.querySelector('.select_product_li')
+    select_des.addEventListener('click' , () => {
+        li_element.classList.toggle('active_block')
+    })
 
     const swiper = new Swiper('.swiper' ,{
         direction: 'horizontal',
