@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded' , () => {
-
     let backedIcon = document.querySelector('.backed-block-icon')
     let backedNav = document.querySelector('.basked_item_block')
     let collapse = document.querySelector('.icon')
@@ -34,11 +33,18 @@ document.addEventListener('DOMContentLoaded' , () => {
         })
     }
 
-    let select_des = document.querySelector('.select_product_title_plus')
-    let li_element = document.querySelector('.select_product_li')
-    select_des.addEventListener('click' , () => {
-        li_element.classList.toggle('active_block')
+    document.querySelectorAll('.select_des_btn').forEach((el) => {
+        el.addEventListener('click', () => {
+            let content = el.nextElementSibling;
+            if (content.style.maxHeight) {
+                document.querySelectorAll('.select_product_text_des').forEach((el) => el.style.maxHeight = null)
+            }else {
+                document.querySelectorAll('.select_product_text_des').forEach((el) => el.style.maxHeight = null)
+                content.style.maxHeight = content.scrollHeight + 'px'
+            }
+        })
     })
+
 
     const swiper = new Swiper('.swiper' ,{
         direction: 'horizontal',
@@ -136,5 +142,23 @@ document.addEventListener('DOMContentLoaded' , () => {
         }
     });
 
-
+    const swiper_select_page = new Swiper('.swiper_4' ,{
+        direction: 'horizontal',
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+        loop: true,
+        effect: 'slide',
+        navigation: {
+            nextEl: '.btn-next',
+            prevEl: '.btn-prev',
+        },
+        pagination:{
+            clickable: true,
+            enabled: true,
+            type: "bullets",
+            bulletActiveClass: "slider-dots-active",
+            el: "#dots-container_5",
+            bulletClass: "s-dot",
+        }
+    });
 })
