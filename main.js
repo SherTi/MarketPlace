@@ -155,8 +155,7 @@ document.addEventListener('DOMContentLoaded' , () => {
         thumbs:{
             swiper:{
                 el: '.image-mini-slider',
-                slidesPerView:3,
-                width:350,
+                slidesPerView:3
             }
         }
     });
