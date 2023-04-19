@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded' , () => {
         });
 
 
+
     const counters = document.querySelectorAll('[data-counter]')
 
     if (counters) {
@@ -45,6 +46,19 @@ document.addEventListener('DOMContentLoaded' , () => {
         })
     })
 
+    const nav = document.querySelector('.product-order')
+    const menu = document.querySelector('.modal')
+    nav.addEventListener('click' , (event) =>{
+        event.preventDefault()
+        menu.classList.add('active_modal_box')
+        document.body.style.overflow = 'hidden'
+    })
+    menu.addEventListener('click' , (event) => {
+        if (event.target.classList.contains('modal')){
+            menu.classList.remove('active_modal_box')
+            document.body.style.overflow = 'visible'
+        }
+    })
 
     const swiper = new Swiper('.swiper' ,{
         direction: 'horizontal',

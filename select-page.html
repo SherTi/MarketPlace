@@ -50,74 +50,87 @@
             </div>
         </div>
     </div>
-    <div class="basked_item_block">
-        <div class="basked_title_block">
-            <button class="icon">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="icon-item">
-                    <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5
-                          12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4
-                          86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/>
-                </svg>
-            </button>
-            <span class="basked-title-text">Корзина</span>
-        </div>
-        <div class="basked_body_block">
-            <span class="basked-body-text">Корзина пуста</span>
-            <div class="basked-card">
-                <div class="basked-content-block">
-                    <div class="product-img">
-                        <img src="assets/macBook.png" alt="" class="product-img-item">
-                    </div>
-                    <div class="product-price mar-l ">
-                        <p class="product-text">MacBook</p>
-                        <p class="product-text">1200$</p>
-                    </div>
-                </div>
-                <div class="product-number" data-counter>
-                    <button class="product-num-text counter__btn num-product minus" >-</button>
-                    <div class="counter-input"><input class="product-num-text counter__val" value="1"  disabled></div>
-                    <button class="product-num-text counter__btn num-product plus">+</button>
-                    <div class="delete-product-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="delete-icon-item">
-                            <path d="
-                             M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6
-                             105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5
-                             12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8
-                             12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/>
-                        </svg>
-                    </div>
-                </div>
+    <div class="modal">
+        <div class="modal-box">
+            <div class="form_order">
+                <p class="modal_text_title">Имя</p>
+                <input type="text" class="modal_input" placeholder="Введите имя">
             </div>
-            <div class="basked-card">
-                <div class="basked-content-block">
-                    <div class="product-img">
-                        <img src="assets/macBook.png" alt="" class="product-img-item">
-                    </div>
-                    <div class="product-price mar-l ">
-                        <p class="product-text">MacBook</p>
-                        <p class="product-text">1200$</p>
-                    </div>
-                </div>
-                <div class="product-number" data-counter>
-                    <button class="product-num-text counter__btn num-product minus" >-</button>
-                    <div class="counter-input"><input class="product-num-text counter__val" value="1"  disabled></div>
-                    <button class="product-num-text counter__btn num-product plus">+</button>
-                    <div class="delete-product-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="delete-icon-item">
-                            <path d="
-                             M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6
-                             105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5
-                             12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8
-                             12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/>
-                        </svg>
-                    </div>
-                </div>
+            <div class="form_order">
+                <p class="modal_text_title">Телефон номер</p>
+                <input type="text" class="modal_input" placeholder="Введите телефон номер">
             </div>
-            <div class="basked-nav-panel">
-                <button class="p-btn product-order">Купить</button>
-            </div>
+            <button class="modal_btn">Оставить заявку на покупку товара</button>
         </div>
     </div>
+    <div class="basked_item_block">
+            <div class="basked_title_block">
+                <button class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="icon-item">
+                        <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5
+                          12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4
+                          86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/>
+                    </svg>
+                </button>
+                <span class="basked-title-text">Корзина</span>
+            </div>
+            <div class="basked_body_block">
+                <span class="basked-body-text">Корзина пуста</span>
+                <div class="basked-card">
+                    <div class="basked-content-block">
+                        <div class="product-img">
+                            <img src="assets/macBook.png" alt="" class="product-img-item">
+                        </div>
+                        <div class="product-price mar-l ">
+                            <p class="product-text">MacBook</p>
+                            <p class="product-text">1200$</p>
+                        </div>
+                    </div>
+                    <div class="product-number" data-counter>
+                        <button class="product-num-text counter__btn num-product minus" >-</button>
+                        <div class="counter-input"><input class="product-num-text counter__val" value="1"  disabled></div>
+                        <button class="product-num-text counter__btn num-product plus">+</button>
+                        <div class="delete-product-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="delete-icon-item">
+                                <path d="
+                             M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6
+                             105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5
+                             12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8
+                             12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="basked-card">
+                    <div class="basked-content-block">
+                        <div class="product-img">
+                            <img src="assets/macBook.png" alt="" class="product-img-item">
+                        </div>
+                        <div class="product-price mar-l ">
+                            <p class="product-text">MacBook</p>
+                            <p class="product-text">1200$</p>
+                        </div>
+                    </div>
+                    <div class="product-number" data-counter>
+                        <button class="product-num-text counter__btn num-product minus" >-</button>
+                        <div class="counter-input"><input class="product-num-text counter__val" value="1"  disabled></div>
+                        <button class="product-num-text counter__btn num-product plus">+</button>
+                        <div class="delete-product-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="delete-icon-item">
+                                <path d="
+                             M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6
+                             105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5
+                             12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8
+                             12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="basked-nav-panel">
+                    <button class="p-btn product-order">Купить</button>
+                </div>
+            </div>
+        </div>
 </div>
 <!--header-->
 <div class="container">
