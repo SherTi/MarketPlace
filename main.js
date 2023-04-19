@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded' , () => {
         }
     });
 
-    const swiper_select_page = new Swiper('.swiper_4' ,{
+    const swiper_select_page = new Swiper('.swiper_5' ,{
         direction: 'horizontal',
         slidesPerView: 1,
         slidesPerGroup: 1,
@@ -152,13 +152,12 @@ document.addEventListener('DOMContentLoaded' , () => {
             nextEl: '.btn-next',
             prevEl: '.btn-prev',
         },
-        pagination:{
-            clickable: true,
-            enabled: true,
-            type: "bullets",
-            bulletActiveClass: "slider-dots-active",
-            el: "#dots-container_5",
-            bulletClass: "s-dot",
+        thumbs:{
+            swiper:{
+                el: '.image-mini-slider',
+                slidesPerView:3,
+                width:350,
+            }
         }
     });
 })

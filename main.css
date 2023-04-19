@@ -559,16 +559,16 @@ body::-webkit-scrollbar-thumb {
     height: 500px;
     object-fit: contain;
 }
-.s_img_mini_v_item{
+.img_slider_item{
     width: 42px;
     height: 42px;
     object-fit: contain;
 }
-.select_img_mini_version{
+.img-mini-slider__image{
     border: 2px solid #6E6E6E;
     display: inline-block;
 }
-.select_img_mini_version{
+.img-mini-slider__image{
     margin: 20px 0;
 }
 .select_content_section{
@@ -578,6 +578,7 @@ body::-webkit-scrollbar-thumb {
 }
 .select_img_section{
     width: 30%;
+    overflow: hidden;
 }
 .color_p{
     display: flex;
@@ -693,7 +694,10 @@ body::-webkit-scrollbar-thumb {
 .select_product_description{
     margin-top: 10px;
 }
-/*footer*/
+.image-mini-slider{
+    padding: 0 0 0 180px;
+}
+    /*footer*/
 .footer-block{
     background: url("/assets/background.jpg");
     background-repeat: no-repeat;
